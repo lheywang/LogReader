@@ -1,0 +1,21 @@
+To: root
+Subject: CRON-APT completed on dionysos [/etc/cron-apt/config]
+
+The following packages are already downloaded and ready to install. Security packages are installed automatically. Please go to the 'System | Update Management' page in the web interface or run 'omv-upgrade' from the CLI to install non-security packages finally.
+
+You have received this notification because you have enabled software update notifications on this host. To change your notification preferences, please go to the 'System | Notification' page in the web interface.
+
+CRON-APT RUN [/etc/cron-apt/config]: Sat Feb 24 07:35:26 GMT 2024
+CRON-APT SLEEP: 1064, Sat Feb 24 07:53:10 GMT 2024
+CRON-APT ACTION: 3-download
+CRON-APT LINE: /usr/bin/apt-get  dist-upgrade -d -y -o APT::Get::Show-Upgraded=true
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages will be upgraded:
+  bind9-host bind9-libs openmediavault
+3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B/4155 kB of archives.
+After this operation, 12.3 kB of additional disk space will be used.
+Download complete and in download only mode

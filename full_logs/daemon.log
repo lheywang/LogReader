@@ -1,0 +1,547 @@
+Feb 25 00:00:01 dionysos systemd[1]: logrotate.service: Succeeded.
+Feb 25 00:00:01 dionysos systemd[1]: Finished Rotate log files.
+Feb 25 00:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 00:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 00:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 00:09:43 dionysos freshclam[786]: Sun Feb 25 00:09:43 2024 -> Received signal: wake up
+Feb 25 00:09:43 dionysos freshclam[786]: Sun Feb 25 00:09:43 2024 -> ClamAV update process started at Sun Feb 25 00:09:43 2024
+Feb 25 00:09:43 dionysos freshclam[786]: Sun Feb 25 00:09:43 2024 -> ^Your ClamAV installation is OUTDATED!
+Feb 25 00:09:43 dionysos freshclam[786]: Sun Feb 25 00:09:43 2024 -> ^Local version: 0.103.10 Recommended version: 0.103.11
+Feb 25 00:09:43 dionysos freshclam[786]: Sun Feb 25 00:09:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Feb 25 00:09:43 dionysos freshclam[786]: Sun Feb 25 00:09:43 2024 -> daily.cld database is up-to-date (version: 27195, sigs: 2054013, f-level: 90, builder: raynman)
+Feb 25 00:09:43 dionysos freshclam[786]: Sun Feb 25 00:09:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Feb 25 00:09:43 dionysos freshclam[786]: Sun Feb 25 00:09:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Feb 25 00:09:57 dionysos clamd[575]: Sun Feb 25 00:09:57 2024 -> SelfCheck: Database status OK.
+Feb 25 00:17:01 dionysos cron[388217]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 00:39:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 00:39:02 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 00:39:02 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 00:43:49 dionysos smartd[5087]: Device: /dev/disk/by-id/ata-CT240BX500SSD1_2336E873574E [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 70 to 71
+Feb 25 01:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 01:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 01:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 01:09:57 dionysos clamd[575]: Sun Feb 25 01:09:57 2024 -> SelfCheck: Database status OK.
+Feb 25 01:13:49 dionysos smartd[5087]: Device: /dev/disk/by-id/ata-CT240BX500SSD1_2336E873574E [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 71 to 70
+Feb 25 01:17:01 dionysos cron[421929]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 01:39:02 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 01:39:02 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 01:39:02 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 02:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 02:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 02:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 02:09:57 dionysos clamd[575]: Sun Feb 25 02:09:57 2024 -> SelfCheck: Database status OK.
+Feb 25 02:17:01 dionysos cron[455913]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 02:39:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 02:39:02 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 02:39:02 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 02:43:49 dionysos smartd[5087]: Device: /dev/disk/by-id/ata-CT240BX500SSD1_2336E873574E [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 70 to 71
+Feb 25 03:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 03:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 03:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 03:09:57 dionysos clamd[575]: Sun Feb 25 03:09:57 2024 -> SelfCheck: Database status OK.
+Feb 25 03:10:55 dionysos systemd[1]: Starting Online ext4 Metadata Check for All Filesystems...
+Feb 25 03:10:55 dionysos systemd[1]: e2scrub_all.service: Succeeded.
+Feb 25 03:10:55 dionysos systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
+Feb 25 03:13:49 dionysos smartd[5087]: Device: /dev/disk/by-id/ata-CT240BX500SSD1_2336E873574E [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 71 to 70
+Feb 25 03:17:01 dionysos cron[489848]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 03:39:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 03:39:02 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 03:39:02 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 04:00:07 dionysos systemd-networkd[360]: vetha67d4ef: Lost carrier
+Feb 25 04:00:07 dionysos systemd-udevd[514147]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Feb 25 04:00:07 dionysos systemd-udevd[514147]: Using default interface naming scheme 'v247'.
+Feb 25 04:00:08 dionysos systemd-udevd[514147]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Feb 25 04:00:08 dionysos systemd-networkd[360]: vetha67d4ef: Link DOWN
+Feb 25 04:00:08 dionysos systemd-networkd[360]: rtnl: received neighbor for link '23' we don't know about, ignoring.
+Feb 25 04:00:08 dionysos systemd-networkd[360]: rtnl: received neighbor for link '23' we don't know about, ignoring.
+Feb 25 04:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 04:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 04:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 04:09:43 dionysos freshclam[786]: Sun Feb 25 04:09:43 2024 -> Received signal: wake up
+Feb 25 04:09:43 dionysos freshclam[786]: Sun Feb 25 04:09:43 2024 -> ClamAV update process started at Sun Feb 25 04:09:43 2024
+Feb 25 04:09:43 dionysos freshclam[786]: Sun Feb 25 04:09:43 2024 -> ^Your ClamAV installation is OUTDATED!
+Feb 25 04:09:43 dionysos freshclam[786]: Sun Feb 25 04:09:43 2024 -> ^Local version: 0.103.10 Recommended version: 0.103.11
+Feb 25 04:09:43 dionysos freshclam[786]: Sun Feb 25 04:09:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Feb 25 04:09:43 dionysos freshclam[786]: Sun Feb 25 04:09:43 2024 -> daily.cld database is up-to-date (version: 27195, sigs: 2054013, f-level: 90, builder: raynman)
+Feb 25 04:09:43 dionysos freshclam[786]: Sun Feb 25 04:09:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Feb 25 04:09:43 dionysos freshclam[786]: Sun Feb 25 04:09:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Feb 25 04:09:58 dionysos clamd[575]: Sun Feb 25 04:09:58 2024 -> SelfCheck: Database status OK.
+Feb 25 04:17:01 dionysos cron[523700]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 04:26:37 dionysos systemd[1]: run-docker-runtime\x2drunc-moby-0a3066f844e55c8ef6abc2af4da892e91429725c26f44726cea5faa30375791d-runc.CHEYcA.mount: Succeeded.
+Feb 25 04:39:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 04:39:02 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 04:39:02 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 05:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 05:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 05:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 05:09:58 dionysos clamd[575]: Sun Feb 25 05:09:58 2024 -> SelfCheck: Database status OK.
+Feb 25 05:17:01 dionysos cron[557576]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 05:39:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 05:39:02 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 05:39:02 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 06:09:00 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 06:09:00 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 06:09:00 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 06:09:58 dionysos clamd[575]: Sun Feb 25 06:09:58 2024 -> SelfCheck: Database status OK.
+Feb 25 06:13:49 dionysos systemd[1]: Starting Daily apt upgrade and clean activities...
+Feb 25 06:13:49 dionysos systemd[1]: apt-daily-upgrade.service: Succeeded.
+Feb 25 06:13:49 dionysos systemd[1]: Finished Daily apt upgrade and clean activities.
+Feb 25 06:17:01 dionysos cron[591453]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 06:39:00 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 06:39:00 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 06:39:00 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 06:43:49 dionysos smartd[5087]: Device: /dev/disk/by-id/ata-CT240BX500SSD1_2336E873574E [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 70 to 71
+Feb 25 07:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 07:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 07:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 07:09:58 dionysos clamd[575]: Sun Feb 25 07:09:58 2024 -> SelfCheck: Database status OK.
+Feb 25 07:16:27 dionysos systemd[1]: Starting Daily apt download activities...
+Feb 25 07:16:27 dionysos systemd[1]: apt-daily.service: Succeeded.
+Feb 25 07:16:27 dionysos systemd[1]: Finished Daily apt download activities.
+Feb 25 07:17:01 dionysos cron[625263]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 07:33:17 dionysos systemd[1]: Started Run anacron jobs.
+Feb 25 07:39:02 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 07:39:02 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 07:39:02 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 08:09:00 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 08:09:00 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 08:09:00 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 08:09:43 dionysos freshclam[786]: Sun Feb 25 08:09:43 2024 -> Received signal: wake up
+Feb 25 08:09:43 dionysos freshclam[786]: Sun Feb 25 08:09:43 2024 -> ClamAV update process started at Sun Feb 25 08:09:43 2024
+Feb 25 08:09:43 dionysos freshclam[786]: Sun Feb 25 08:09:43 2024 -> ^Your ClamAV installation is OUTDATED!
+Feb 25 08:09:43 dionysos freshclam[786]: Sun Feb 25 08:09:43 2024 -> ^Local version: 0.103.10 Recommended version: 0.103.11
+Feb 25 08:09:43 dionysos freshclam[786]: Sun Feb 25 08:09:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Feb 25 08:09:43 dionysos freshclam[786]: Sun Feb 25 08:09:43 2024 -> daily.cld database is up-to-date (version: 27195, sigs: 2054013, f-level: 90, builder: raynman)
+Feb 25 08:09:43 dionysos freshclam[786]: Sun Feb 25 08:09:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Feb 25 08:09:43 dionysos freshclam[786]: Sun Feb 25 08:09:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Feb 25 08:09:58 dionysos clamd[575]: Sun Feb 25 08:09:58 2024 -> SelfCheck: Database status OK.
+Feb 25 08:13:49 dionysos smartd[5087]: Device: /dev/disk/by-id/ata-CT240BX500SSD1_2336E873574E [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 71 to 70
+Feb 25 08:15:20 dionysos anacron[659430]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 08:15:22 dionysos systemd[1]: anacron.service: Succeeded.
+Feb 25 08:15:22 dionysos systemd[1]: anacron.service: Consumed 4.370s CPU time.
+Feb 25 08:17:01 dionysos cron[660530]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 08:29:58 dionysos systemd[1]: Reloading.
+Feb 25 08:29:58 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 08:29:58 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 08:29:59 dionysos systemd[1]: Started /bin/systemctl restart openmediavault-firewall.service.
+Feb 25 08:29:59 dionysos systemd[1]: Stopping openmediavault iptables firewall service...
+Feb 25 08:29:59 dionysos systemd[1]: openmediavault-firewall.service: Succeeded.
+Feb 25 08:29:59 dionysos systemd[1]: Stopped openmediavault iptables firewall service.
+Feb 25 08:29:59 dionysos systemd[1]: Starting openmediavault iptables firewall service...
+Feb 25 08:29:59 dionysos systemd[1]: Finished openmediavault iptables firewall service.
+Feb 25 08:29:59 dionysos systemd[1]: run-r83136f2d714e47acbf8c57ca52174668.scope: Succeeded.
+Feb 25 08:34:56 dionysos systemd[1]: Started Run anacron jobs.
+Feb 25 08:34:56 dionysos systemd[1]: anacron.service: Succeeded.
+Feb 25 08:39:00 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 08:39:00 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 08:39:00 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 08:48:17 dionysos smbd[683554]: [2024/02/25 08:48:17.992367,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:48:18 dionysos smbd[683554]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:48:18 dionysos smbd[683555]: [2024/02/25 08:48:18.012055,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:48:18 dionysos smbd[683555]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:48:21 dionysos smbd[683584]: [2024/02/25 08:48:21.884931,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:48:21 dionysos smbd[683584]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:48:33 dionysos smbd[683817]: [2024/02/25 08:48:33.950778,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:48:33 dionysos smbd[683817]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:48:40 dionysos smbd[683849]: [2024/02/25 08:48:40.958607,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:48:40 dionysos smbd[683849]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:48:42 dionysos smbd[683857]: [2024/02/25 08:48:42.336792,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:48:42 dionysos smbd[683857]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:49:41 dionysos smbd[684466]: [2024/02/25 08:49:41.016376,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:49:41 dionysos smbd[684466]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:49:41 dionysos smbd[684473]: [2024/02/25 08:49:41.794911,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:49:41 dionysos smbd[684473]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:49:50 dionysos smbd[684488]: [2024/02/25 08:49:50.519608,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:49:50 dionysos smbd[684488]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:49:58 dionysos smbd[684574]: [2024/02/25 08:49:58.860836,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:49:58 dionysos smbd[684574]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:59:51 dionysos smbd[691142]: [2024/02/25 08:59:51.198322,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:59:51 dionysos smbd[691142]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:59:56 dionysos smbd[691187]: [2024/02/25 08:59:56.584400,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:59:56 dionysos smbd[691187]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 08:59:59 dionysos smbd[691194]: [2024/02/25 08:59:59.843335,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 08:59:59 dionysos smbd[691194]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 09:00:01 dionysos smbd[691296]: [2024/02/25 09:00:01.712584,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 09:00:01 dionysos smbd[691296]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 09:00:02 dionysos smbd[691367]: [2024/02/25 09:00:02.986887,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 09:00:02 dionysos smbd[691367]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 09:00:13 dionysos smbd[691537]: [2024/02/25 09:00:13.664775,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 09:00:13 dionysos smbd[691537]:   process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+Feb 25 09:09:02 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 09:09:02 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 09:09:02 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 09:09:58 dionysos clamd[575]: Sun Feb 25 09:09:58 2024 -> SelfCheck: Database status OK.
+Feb 25 09:14:30 dionysos smbd[701704]: [2024/02/25 09:14:30.317769,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 09:14:30 dionysos smbd[701704]:   process_usershare_file: stat of /var/lib/samba/usershares/martin failed. Permission denied
+Feb 25 09:17:01 dionysos cron[704536]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 09:18:20 dionysos systemd[1]: Reloading.
+Feb 25 09:18:20 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:18:20 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:18:23 dionysos systemd[1]: Reloading.
+Feb 25 09:18:23 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:18:23 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:18:27 dionysos systemd[1]: Started /bin/systemctl restart proftpd.service.
+Feb 25 09:18:27 dionysos systemd[1]: Stopping ProFTPD FTP Server...
+Feb 25 09:18:28 dionysos proftpd[1253]: 127.0.0.1 - ProFTPD killed (signal 15)
+Feb 25 09:18:28 dionysos proftpd[1253]: 127.0.0.1 - ProFTPD 1.3.7a standalone mode SHUTDOWN
+Feb 25 09:18:28 dionysos systemd[1]: proftpd.service: Succeeded.
+Feb 25 09:18:28 dionysos systemd[1]: Stopped ProFTPD FTP Server.
+Feb 25 09:18:28 dionysos systemd[1]: proftpd.service: Consumed 2min 38.022s CPU time.
+Feb 25 09:18:28 dionysos systemd[1]: Starting ProFTPD FTP Server...
+Feb 25 09:18:28 dionysos proftpd[709371]: Checking syntax of configuration file
+Feb 25 09:18:28 dionysos proftpd[709374]: 127.0.0.1 - ProFTPD 1.3.7a (maint) (built Sat Sep 18 2021 21:42:19 UTC) standalone mode STARTUP
+Feb 25 09:18:28 dionysos systemd[1]: Started ProFTPD FTP Server.
+Feb 25 09:18:28 dionysos systemd[1]: run-rb5b6cc6b37444bbbafb014bfbb36d202.scope: Succeeded.
+Feb 25 09:18:28 dionysos monit[1164]: 'proftpd' monitor on user request
+Feb 25 09:18:28 dionysos monit[1164]: Monit daemon with PID 1164 awakened
+Feb 25 09:18:28 dionysos monit[1164]: Awakened by User defined signal 1
+Feb 25 09:18:28 dionysos monit[1164]: 'proftpd' monitor action done
+Feb 25 09:18:30 dionysos systemd[1]: Started /bin/systemctl restart smbd.service.
+Feb 25 09:18:30 dionysos systemd[1]: Stopping Samba SMB Daemon...
+Feb 25 09:18:30 dionysos systemd[1]: Stopping Web Services Dynamic Discovery host daemon...
+Feb 25 09:18:30 dionysos systemd[1]: smbd.service: Succeeded.
+Feb 25 09:18:30 dionysos systemd[1]: Stopped Samba SMB Daemon.
+Feb 25 09:18:30 dionysos systemd[1]: smbd.service: Consumed 45.475s CPU time.
+Feb 25 09:18:30 dionysos systemd[1]: Starting Samba SMB Daemon...
+Feb 25 09:18:30 dionysos smbd[709520]: [2024/02/25 09:18:30.862351,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+Feb 25 09:18:30 dionysos smbd[709520]:   daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+Feb 25 09:18:30 dionysos systemd[1]: Started Samba SMB Daemon.
+Feb 25 09:18:30 dionysos systemd[1]: run-r85ad9b5e228145d296e680a0e4b013ea.scope: Succeeded.
+Feb 25 09:18:30 dionysos systemd[1]: Started /bin/systemctl start wsdd.service.
+Feb 25 09:18:31 dionysos systemd[1]: wsdd.service: Succeeded.
+Feb 25 09:18:31 dionysos systemd[1]: Stopped Web Services Dynamic Discovery host daemon.
+Feb 25 09:18:31 dionysos systemd[1]: Started Web Services Dynamic Discovery host daemon.
+Feb 25 09:18:31 dionysos systemd[1]: run-rd83d3fd04b514334946da2e3fc8270bd.scope: Succeeded.
+Feb 25 09:18:31 dionysos wsdd.py[709538]: WARNING: no interface given, using all interfaces
+Feb 25 09:18:33 dionysos systemd[1]: Reloading.
+Feb 25 09:18:33 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:18:33 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:30:50 dionysos systemd[1]: Started /bin/systemctl mask --runtime avahi-daemon.service.
+Feb 25 09:30:50 dionysos systemd[1]: Reloading.
+Feb 25 09:30:50 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:30:50 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:30:50 dionysos systemd[1]: avahi-daemon.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Feb 25 09:30:50 dionysos systemd[1]: run-r25aec56e61ff480b82be80a87f32aebf.scope: Succeeded.
+Feb 25 09:30:50 dionysos systemd[1]: Started Run anacron jobs.
+Feb 25 09:30:50 dionysos systemd[1]: anacron.service: Succeeded.
+Feb 25 09:30:50 dionysos systemd[1]: Started /bin/systemctl stop avahi-daemon.service.
+Feb 25 09:30:50 dionysos avahi-daemon[543]: Got SIGTERM, quitting.
+Feb 25 09:30:50 dionysos avahi-daemon[543]: Leaving mDNS multicast group on interface enp0s31f6.IPv4 with address 192.168.1.89.
+Feb 25 09:30:50 dionysos systemd[1]: Stopping avahi-daemon.service...
+Feb 25 09:30:50 dionysos avahi-daemon[543]: avahi-daemon 0.8 exiting.
+Feb 25 09:30:50 dionysos systemd[1]: avahi-daemon.service: Succeeded.
+Feb 25 09:30:50 dionysos systemd[1]: Stopped avahi-daemon.service.
+Feb 25 09:30:50 dionysos systemd[1]: run-r3580f5fc093a4f6e9addc1c7120d58d9.scope: Succeeded.
+Feb 25 09:30:50 dionysos systemd[1]: Started /bin/systemctl stop avahi-daemon.socket.
+Feb 25 09:30:50 dionysos systemd[1]: avahi-daemon.socket: Succeeded.
+Feb 25 09:30:50 dionysos systemd[1]: Closed Avahi mDNS/DNS-SD Stack Activation Socket.
+Feb 25 09:30:50 dionysos systemd[1]: run-r61813bec51c240e9960bbd64d37f4d73.scope: Succeeded.
+Feb 25 09:30:51 dionysos systemd[1]: Started /bin/systemctl disable avahi-daemon.socket.
+Feb 25 09:30:51 dionysos systemd[1]: Reloading.
+Feb 25 09:30:51 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:30:51 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:30:51 dionysos systemd[1]: run-rd17bff33029f4cf7895177819767023b.scope: Succeeded.
+Feb 25 09:30:51 dionysos systemd[1]: Started /bin/systemctl unmask --runtime avahi-daemon.service.
+Feb 25 09:30:51 dionysos systemd[1]: Reloading.
+Feb 25 09:30:52 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:30:52 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:30:52 dionysos systemd[1]: run-rce8e033f8ea848ae993f28f574bf6ba9.scope: Succeeded.
+Feb 25 09:30:52 dionysos systemd[1]: Started /bin/systemctl start avahi-daemon.socket.
+Feb 25 09:30:52 dionysos systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Feb 25 09:30:52 dionysos systemd[1]: run-reaff3cb7e0e34a8eb437a944c85af4d2.scope: Succeeded.
+Feb 25 09:30:52 dionysos systemd[1]: Started /bin/systemctl enable avahi-daemon.socket.
+Feb 25 09:30:52 dionysos systemd[1]: Reloading.
+Feb 25 09:30:52 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:30:52 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:30:52 dionysos systemd[1]: run-rae1af4eed60f4d9da46cc06e54eb0e71.scope: Succeeded.
+Feb 25 09:30:52 dionysos systemd[1]: Started /bin/systemctl start avahi-daemon.service.
+Feb 25 09:30:52 dionysos systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Process 543 died: No such process; trying to remove PID file. (/run/avahi-daemon//pid)
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Found user 'avahi' (UID 109) and group 'avahi' (GID 115).
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Successfully dropped root privileges.
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: avahi-daemon 0.8 starting up.
+Feb 25 09:30:52 dionysos systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Successfully called chroot().
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Successfully dropped remaining capabilities.
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Loading service file /services/ftp.service.
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Loading service file /services/photoprism.service.
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Loading service file /services/smb.service.
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Loading service file /services/ssh.service.
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Loading service file /services/website.service.
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Joining mDNS multicast group on interface enp0s31f6.IPv4 with address 192.168.1.89.
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: New relevant interface enp0s31f6.IPv4 for mDNS.
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Network interface enumeration completed.
+Feb 25 09:30:52 dionysos avahi-daemon[720433]: Registering new address record for 192.168.1.89 on enp0s31f6.IPv4.
+Feb 25 09:30:52 dionysos systemd[1]: run-rb595565b4f6744d5a7b1448ee96c0122.scope: Succeeded.
+Feb 25 09:30:53 dionysos avahi-daemon[720433]: Server startup complete. Host name is dionysos.local. Local service cookie is 3228338464.
+Feb 25 09:30:54 dionysos avahi-daemon[720433]: Service "dionysos - Web control panel" (/services/website.service) successfully established.
+Feb 25 09:30:54 dionysos avahi-daemon[720433]: Service "dionysos - SSH" (/services/ssh.service) successfully established.
+Feb 25 09:30:54 dionysos avahi-daemon[720433]: Service "dionysos - SMB/CIFS" (/services/smb.service) successfully established.
+Feb 25 09:30:54 dionysos avahi-daemon[720433]: Service "dionysos - PhotoPrism" (/services/photoprism.service) successfully established.
+Feb 25 09:30:54 dionysos avahi-daemon[720433]: Service "dionysos - FTP" (/services/ftp.service) successfully established.
+Feb 25 09:30:55 dionysos systemd[1]: Started /bin/systemctl restart smbd.service.
+Feb 25 09:30:55 dionysos systemd[1]: Stopping Samba SMB Daemon...
+Feb 25 09:30:55 dionysos systemd[1]: Stopping Web Services Dynamic Discovery host daemon...
+Feb 25 09:30:55 dionysos systemd[1]: smbd.service: Succeeded.
+Feb 25 09:30:55 dionysos systemd[1]: Stopped Samba SMB Daemon.
+Feb 25 09:30:55 dionysos systemd[1]: Starting Samba SMB Daemon...
+Feb 25 09:30:55 dionysos smbd[720544]: [2024/02/25 09:30:55.320408,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+Feb 25 09:30:55 dionysos smbd[720544]:   daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+Feb 25 09:30:55 dionysos systemd[1]: Started Samba SMB Daemon.
+Feb 25 09:30:55 dionysos systemd[1]: run-rc6a5975131e94a41ac73fff005f430b5.scope: Succeeded.
+Feb 25 09:30:55 dionysos systemd[1]: Started /bin/systemctl start wsdd.service.
+Feb 25 09:30:56 dionysos systemd[1]: wsdd.service: Succeeded.
+Feb 25 09:30:56 dionysos systemd[1]: Stopped Web Services Dynamic Discovery host daemon.
+Feb 25 09:30:56 dionysos systemd[1]: Started Web Services Dynamic Discovery host daemon.
+Feb 25 09:30:56 dionysos systemd[1]: run-r46b128a80b884c44a283ee27e8f36455.scope: Succeeded.
+Feb 25 09:30:56 dionysos wsdd.py[720562]: WARNING: no interface given, using all interfaces
+Feb 25 09:32:44 dionysos smbd[721952]: [2024/02/25 09:32:44.874490,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+Feb 25 09:32:44 dionysos smbd[721952]:   process_usershare_file: stat of /var/lib/samba/usershares/martin failed. Permission denied
+Feb 25 09:39:00 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 09:39:00 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 09:39:00 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 09:44:38 dionysos systemd[1]: run-docker-runtime\x2drunc-moby-579db1013a7872e5cee7c05c129ba3dd7c931b57fba70afb71b7d0de38e006ea-runc.voMEyk.mount: Succeeded.
+Feb 25 09:59:11 dionysos systemd[1]: Started /bin/systemctl mask --runtime avahi-daemon.service.
+Feb 25 09:59:11 dionysos systemd[1]: Reloading.
+Feb 25 09:59:11 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:59:11 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:59:11 dionysos systemd[1]: avahi-daemon.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Feb 25 09:59:11 dionysos systemd[1]: run-r5d6a06f00d7045c0aff692b42f77a4cd.scope: Succeeded.
+Feb 25 09:59:11 dionysos systemd[1]: Started /bin/systemctl stop avahi-daemon.service.
+Feb 25 09:59:11 dionysos avahi-daemon[720433]: Got SIGTERM, quitting.
+Feb 25 09:59:11 dionysos systemd[1]: Stopping avahi-daemon.service...
+Feb 25 09:59:11 dionysos avahi-daemon[720433]: Leaving mDNS multicast group on interface enp0s31f6.IPv4 with address 192.168.1.89.
+Feb 25 09:59:11 dionysos avahi-daemon[720433]: avahi-daemon 0.8 exiting.
+Feb 25 09:59:11 dionysos systemd[1]: avahi-daemon.service: Succeeded.
+Feb 25 09:59:11 dionysos systemd[1]: Stopped avahi-daemon.service.
+Feb 25 09:59:11 dionysos systemd[1]: run-r64d6d66557604d5bb9e35e20d1be3795.scope: Succeeded.
+Feb 25 09:59:11 dionysos systemd[1]: Started /bin/systemctl stop avahi-daemon.socket.
+Feb 25 09:59:11 dionysos systemd[1]: avahi-daemon.socket: Succeeded.
+Feb 25 09:59:11 dionysos systemd[1]: Closed Avahi mDNS/DNS-SD Stack Activation Socket.
+Feb 25 09:59:11 dionysos systemd[1]: run-rb88ac30071f545a7995c1d88b429f5e1.scope: Succeeded.
+Feb 25 09:59:11 dionysos systemd[1]: Started /bin/systemctl disable avahi-daemon.socket.
+Feb 25 09:59:11 dionysos systemd[1]: Reloading.
+Feb 25 09:59:12 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:59:12 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:59:12 dionysos systemd[1]: run-ra8b02efcec2e4bb29d9e93765b32b5c0.scope: Succeeded.
+Feb 25 09:59:12 dionysos systemd[1]: Started /bin/systemctl unmask --runtime avahi-daemon.service.
+Feb 25 09:59:12 dionysos systemd[1]: Reloading.
+Feb 25 09:59:12 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:59:12 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:59:12 dionysos systemd[1]: run-rc2a9c937b4d740f59f554ce275728234.scope: Succeeded.
+Feb 25 09:59:13 dionysos systemd[1]: Started /bin/systemctl start avahi-daemon.socket.
+Feb 25 09:59:13 dionysos systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Feb 25 09:59:13 dionysos systemd[1]: run-rd30eb58623cb4525b2f46889d5f5fce4.scope: Succeeded.
+Feb 25 09:59:13 dionysos systemd[1]: Started /bin/systemctl enable avahi-daemon.socket.
+Feb 25 09:59:13 dionysos systemd[1]: Reloading.
+Feb 25 09:59:13 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:59:13 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 09:59:13 dionysos systemd[1]: run-r699bfb6efc1a43e0bc02accae68e1ca6.scope: Succeeded.
+Feb 25 09:59:13 dionysos systemd[1]: Started /bin/systemctl start avahi-daemon.service.
+Feb 25 09:59:13 dionysos systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Process 720433 died: No such process; trying to remove PID file. (/run/avahi-daemon//pid)
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Found user 'avahi' (UID 109) and group 'avahi' (GID 115).
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Successfully dropped root privileges.
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: avahi-daemon 0.8 starting up.
+Feb 25 09:59:13 dionysos systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Successfully called chroot().
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Successfully dropped remaining capabilities.
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Loading service file /services/ftp.service.
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Loading service file /services/photoprism.service.
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Loading service file /services/smb.service.
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Loading service file /services/ssh.service.
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Loading service file /services/website.service.
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Joining mDNS multicast group on interface enp0s31f6.IPv4 with address 192.168.1.89.
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: New relevant interface enp0s31f6.IPv4 for mDNS.
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Network interface enumeration completed.
+Feb 25 09:59:13 dionysos avahi-daemon[744082]: Registering new address record for 192.168.1.89 on enp0s31f6.IPv4.
+Feb 25 09:59:13 dionysos systemd[1]: run-r0f82b2033953409bb0e89b4972e943c1.scope: Succeeded.
+Feb 25 09:59:14 dionysos avahi-daemon[744082]: Server startup complete. Host name is dionysos.local. Local service cookie is 3900580440.
+Feb 25 09:59:15 dionysos avahi-daemon[744082]: Service "dionysos - Web control panel" (/services/website.service) successfully established.
+Feb 25 09:59:15 dionysos avahi-daemon[744082]: Service "dionysos - SSH" (/services/ssh.service) successfully established.
+Feb 25 09:59:15 dionysos avahi-daemon[744082]: Service "dionysos - SMB/CIFS" (/services/smb.service) successfully established.
+Feb 25 09:59:15 dionysos avahi-daemon[744082]: Service "dionysos - PhotoPrism" (/services/photoprism.service) successfully established.
+Feb 25 09:59:15 dionysos avahi-daemon[744082]: Service "dionysos - FTP" (/services/ftp.service) successfully established.
+Feb 25 09:59:15 dionysos systemd[1]: Started /bin/systemctl restart ssh.service.
+Feb 25 09:59:15 dionysos systemd[1]: Stopping OpenBSD Secure Shell server...
+Feb 25 09:59:15 dionysos systemd[1]: ssh.service: Succeeded.
+Feb 25 09:59:15 dionysos systemd[1]: Stopped OpenBSD Secure Shell server.
+Feb 25 09:59:15 dionysos systemd[1]: ssh.service: Consumed 4.220s CPU time.
+Feb 25 09:59:15 dionysos systemd[1]: Starting OpenBSD Secure Shell server...
+Feb 25 09:59:15 dionysos systemd[1]: Started OpenBSD Secure Shell server.
+Feb 25 09:59:15 dionysos systemd[1]: run-r1bb50fb744dd4000b2e3ed4cf9d89d93.scope: Succeeded.
+Feb 25 10:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 10:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 10:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 10:09:58 dionysos clamd[575]: Sun Feb 25 10:09:58 2024 -> SelfCheck: Database status OK.
+Feb 25 10:17:01 dionysos cron[756447]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 10:31:50 dionysos systemd[1]: Started Run anacron jobs.
+Feb 25 10:31:50 dionysos systemd[1]: anacron.service: Succeeded.
+Feb 25 10:39:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 10:39:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 10:39:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 11:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 11:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 11:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 11:09:58 dionysos clamd[575]: Sun Feb 25 11:09:58 2024 -> SelfCheck: Database status OK.
+Feb 25 11:17:01 dionysos cron[790683]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 11:27:51 dionysos systemd[1]: run-docker-runtime\x2drunc-moby-0a3066f844e55c8ef6abc2af4da892e91429725c26f44726cea5faa30375791d-runc.GhW6su.mount: Succeeded.
+Feb 25 11:34:12 dionysos systemd[1]: Started Run anacron jobs.
+Feb 25 11:34:12 dionysos systemd[1]: anacron.service: Succeeded.
+Feb 25 11:37:23 dionysos systemd[1]: run-docker-runtime\x2drunc-moby-0a3066f844e55c8ef6abc2af4da892e91429725c26f44726cea5faa30375791d-runc.9PEizV.mount: Succeeded.
+Feb 25 11:39:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 11:39:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 11:39:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 12:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 12:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 12:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 12:09:43 dionysos freshclam[786]: Sun Feb 25 12:09:43 2024 -> Received signal: wake up
+Feb 25 12:09:43 dionysos freshclam[786]: Sun Feb 25 12:09:43 2024 -> ClamAV update process started at Sun Feb 25 12:09:43 2024
+Feb 25 12:09:43 dionysos freshclam[786]: Sun Feb 25 12:09:43 2024 -> ^Your ClamAV installation is OUTDATED!
+Feb 25 12:09:43 dionysos freshclam[786]: Sun Feb 25 12:09:43 2024 -> ^Local version: 0.103.10 Recommended version: 0.103.11
+Feb 25 12:09:43 dionysos freshclam[786]: Sun Feb 25 12:09:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Feb 25 12:09:43 dionysos freshclam[786]: Sun Feb 25 12:09:43 2024 -> daily database available for update (local version: 27195, remote version: 27196)
+Feb 25 12:09:45 dionysos freshclam[786]: Sun Feb 25 12:09:45 2024 -> Testing database: '/var/lib/clamav/tmp.0c363f3626/clamav-74c854b87138a2e15971c1d5e0670ec9.tmp-daily.cld' ...
+Feb 25 12:09:49 dionysos freshclam[786]: Sun Feb 25 12:09:49 2024 -> Database test passed.
+Feb 25 12:09:49 dionysos freshclam[786]: Sun Feb 25 12:09:49 2024 -> daily.cld updated (version: 27196, sigs: 2054014, f-level: 90, builder: raynman)
+Feb 25 12:09:49 dionysos freshclam[786]: Sun Feb 25 12:09:49 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Feb 25 12:09:49 dionysos freshclam[786]: Sun Feb 25 12:09:49 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Feb 25 12:09:49 dionysos freshclam[786]: Sun Feb 25 12:09:49 2024 -> Clamd successfully notified about the update.
+Feb 25 12:09:49 dionysos clamd[575]: Sun Feb 25 12:09:49 2024 -> Reading databases from /var/lib/clamav
+Feb 25 12:10:03 dionysos clamd[575]: Sun Feb 25 12:10:03 2024 -> Database correctly reloaded (8685461 signatures)
+Feb 25 12:10:03 dionysos clamd[575]: Sun Feb 25 12:10:03 2024 -> SelfCheck: Database status OK.
+Feb 25 12:10:03 dionysos clamd[575]: Sun Feb 25 12:10:03 2024 -> Activating the newly loaded database...
+Feb 25 12:17:01 dionysos cron[824549]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 12:30:01 dionysos systemd[1]: Started Run anacron jobs.
+Feb 25 12:30:01 dionysos systemd[1]: anacron.service: Succeeded.
+Feb 25 12:39:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 12:39:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 12:39:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 12:43:49 dionysos smartd[5087]: Device: /dev/disk/by-id/ata-CT240BX500SSD1_2336E873574E [SAT], Temperature changed +1 Celsius to 31 Celsius (Min/Max 26/31!)
+Feb 25 12:43:49 dionysos smartd[5087]: Device: /dev/disk/by-id/ata-CT240BX500SSD1_2336E873574E [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 70 to 69
+Feb 25 13:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 13:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 13:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 13:10:03 dionysos clamd[575]: Sun Feb 25 13:10:03 2024 -> SelfCheck: Database status OK.
+Feb 25 13:17:01 dionysos cron[858383]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 13:32:29 dionysos systemd[1]: Started Run anacron jobs.
+Feb 25 13:32:29 dionysos systemd[1]: anacron.service: Succeeded.
+Feb 25 13:32:44 dionysos systemd[1]: run-docker-runtime\x2drunc-moby-6e70b8b6a371b4d04cc320e3609c239c688860c30409bcbfba5549440574cf2f-runc.giYh77.mount: Succeeded.
+Feb 25 13:39:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 13:39:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 13:39:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 13:40:50 dionysos systemd[1]: run-docker-runtime\x2drunc-moby-579db1013a7872e5cee7c05c129ba3dd7c931b57fba70afb71b7d0de38e006ea-runc.tJ94Hd.mount: Succeeded.
+Feb 25 14:07:24 dionysos systemd[1]: Reloading.
+Feb 25 14:07:24 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 14:07:24 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 14:07:25 dionysos dbus-daemon[546]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.112' (uid=0 pid=887328 comm="timedatectl ")
+Feb 25 14:07:25 dionysos systemd[1]: Starting Time & Date Service...
+Feb 25 14:07:25 dionysos dbus-daemon[546]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Feb 25 14:07:25 dionysos systemd[1]: Started Time & Date Service.
+Feb 25 14:07:25 dionysos systemd-timedated[887329]: Changed time zone to 'Europe/Paris' (CEST).
+Feb 25 14:07:55 dionysos systemd[1]: systemd-timedated.service: Succeeded.
+Feb 25 14:09:01 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 14:09:01 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 14:09:01 dionysos systemd[1]: Finished Clean php session files.
+Feb 25 14:10:03 dionysos clamd[575]: Sun Feb 25 14:10:03 2024 -> SelfCheck: Database status OK.
+Feb 25 14:13:49 dionysos smartd[5087]: Device: /dev/disk/by-id/ata-CT240BX500SSD1_2336E873574E [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 69 to 70
+Feb 25 14:17:01 dionysos cron[894529]: postdrop: warning: unable to look up public/pickup: No such file or directory
+Feb 25 14:31:10 dionysos systemd[1]: Started Run anacron jobs.
+Feb 25 14:31:10 dionysos systemd[1]: anacron.service: Succeeded.
+Feb 25 14:31:51 dionysos systemd[1]: Started /bin/systemctl mask --runtime avahi-daemon.service.
+Feb 25 14:31:51 dionysos systemd[1]: Reloading.
+Feb 25 14:31:51 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 14:31:51 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 14:31:51 dionysos systemd[1]: avahi-daemon.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Feb 25 14:31:51 dionysos systemd[1]: run-r012fc4a9c1b1493f98711edfc20c724f.scope: Succeeded.
+Feb 25 14:31:51 dionysos systemd[1]: Started /bin/systemctl stop avahi-daemon.service.
+Feb 25 14:31:51 dionysos avahi-daemon[744082]: Got SIGTERM, quitting.
+Feb 25 14:31:51 dionysos avahi-daemon[744082]: Leaving mDNS multicast group on interface enp0s31f6.IPv4 with address 192.168.1.89.
+Feb 25 14:31:51 dionysos systemd[1]: Stopping avahi-daemon.service...
+Feb 25 14:31:51 dionysos avahi-daemon[744082]: avahi-daemon 0.8 exiting.
+Feb 25 14:31:51 dionysos systemd[1]: avahi-daemon.service: Succeeded.
+Feb 25 14:31:51 dionysos systemd[1]: Stopped avahi-daemon.service.
+Feb 25 14:31:51 dionysos systemd[1]: run-r7e36ee407ba547c7996d8c852853e42d.scope: Succeeded.
+Feb 25 14:31:52 dionysos systemd[1]: Started /bin/systemctl stop avahi-daemon.socket.
+Feb 25 14:31:52 dionysos systemd[1]: avahi-daemon.socket: Succeeded.
+Feb 25 14:31:52 dionysos systemd[1]: Closed Avahi mDNS/DNS-SD Stack Activation Socket.
+Feb 25 14:31:52 dionysos systemd[1]: run-rf508db8b7907430198519264fe7d6ff0.scope: Succeeded.
+Feb 25 14:31:52 dionysos systemd[1]: Started /bin/systemctl disable avahi-daemon.socket.
+Feb 25 14:31:52 dionysos systemd[1]: Reloading.
+Feb 25 14:31:52 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 14:31:52 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 14:31:52 dionysos systemd[1]: run-r0ce71dcbd0a4437ca82f62480ad6a3a5.scope: Succeeded.
+Feb 25 14:31:53 dionysos systemd[1]: Started /bin/systemctl unmask --runtime avahi-daemon.service.
+Feb 25 14:31:53 dionysos systemd[1]: Reloading.
+Feb 25 14:31:53 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 14:31:53 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 14:31:53 dionysos systemd[1]: run-r68df26e8622c440c97ab23f9cc839f61.scope: Succeeded.
+Feb 25 14:31:53 dionysos systemd[1]: Started /bin/systemctl start avahi-daemon.socket.
+Feb 25 14:31:53 dionysos systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Feb 25 14:31:53 dionysos systemd[1]: run-rb8fb9d71ce08443f91f5db1f0769cebd.scope: Succeeded.
+Feb 25 14:31:53 dionysos systemd[1]: Started /bin/systemctl enable avahi-daemon.socket.
+Feb 25 14:31:53 dionysos systemd[1]: Reloading.
+Feb 25 14:31:53 dionysos systemd[1]: /lib/systemd/system/clamav-freshclam.service:11: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 14:31:53 dionysos systemd[1]: /lib/systemd/system/clamav-daemon.service:12: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Feb 25 14:31:53 dionysos systemd[1]: run-rb28ab718146a4acdb5be67da027af525.scope: Succeeded.
+Feb 25 14:31:53 dionysos systemd[1]: Started /bin/systemctl start avahi-daemon.service.
+Feb 25 14:31:53 dionysos systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Process 744082 died: No such process; trying to remove PID file. (/run/avahi-daemon//pid)
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Found user 'avahi' (UID 109) and group 'avahi' (GID 115).
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Successfully dropped root privileges.
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: avahi-daemon 0.8 starting up.
+Feb 25 14:31:53 dionysos systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Successfully called chroot().
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Successfully dropped remaining capabilities.
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Loading service file /services/ftp.service.
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Loading service file /services/photoprism.service.
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Loading service file /services/smb.service.
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Loading service file /services/ssh.service.
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Loading service file /services/website.service.
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Joining mDNS multicast group on interface enp0s31f6.IPv4 with address 192.168.1.89.
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: New relevant interface enp0s31f6.IPv4 for mDNS.
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Network interface enumeration completed.
+Feb 25 14:31:53 dionysos avahi-daemon[905227]: Registering new address record for 192.168.1.89 on enp0s31f6.IPv4.
+Feb 25 14:31:53 dionysos systemd[1]: run-rb811360f54ea40c89735c1eabbcb5635.scope: Succeeded.
+Feb 25 14:31:54 dionysos avahi-daemon[905227]: Server startup complete. Host name is dionysos.local. Local service cookie is 2556369873.
+Feb 25 14:31:55 dionysos avahi-daemon[905227]: Service "dionysos - Web control panel" (/services/website.service) successfully established.
+Feb 25 14:31:55 dionysos avahi-daemon[905227]: Service "dionysos - SSH" (/services/ssh.service) successfully established.
+Feb 25 14:31:55 dionysos avahi-daemon[905227]: Service "dionysos - SMB/CIFS" (/services/smb.service) successfully established.
+Feb 25 14:31:55 dionysos avahi-daemon[905227]: Service "dionysos - PhotoPrism" (/services/photoprism.service) successfully established.
+Feb 25 14:31:55 dionysos avahi-daemon[905227]: Service "dionysos - FTP" (/services/ftp.service) successfully established.
+Feb 25 14:31:56 dionysos systemd[1]: Started /bin/systemctl restart ssh.service.
+Feb 25 14:31:56 dionysos systemd[1]: Stopping OpenBSD Secure Shell server...
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Succeeded.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Unit process 900396 (sshd) remains running after unit stopped.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Unit process 900541 (sshd) remains running after unit stopped.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Unit process 900542 (sh) remains running after unit stopped.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Unit process 904365 (sshd) remains running after unit stopped.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Unit process 904373 (sshd) remains running after unit stopped.
+Feb 25 14:31:56 dionysos systemd[1]: Stopped OpenBSD Secure Shell server.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Consumed 1.525s CPU time.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Found left-over process 900396 (sshd) in control group while starting unit. Ignoring.
+Feb 25 14:31:56 dionysos systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Found left-over process 900541 (sshd) in control group while starting unit. Ignoring.
+Feb 25 14:31:56 dionysos systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Found left-over process 900542 (sh) in control group while starting unit. Ignoring.
+Feb 25 14:31:56 dionysos systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Found left-over process 904365 (sshd) in control group while starting unit. Ignoring.
+Feb 25 14:31:56 dionysos systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Found left-over process 904373 (sshd) in control group while starting unit. Ignoring.
+Feb 25 14:31:56 dionysos systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Feb 25 14:31:56 dionysos systemd[1]: Starting OpenBSD Secure Shell server...
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Found left-over process 900396 (sshd) in control group while starting unit. Ignoring.
+Feb 25 14:31:56 dionysos systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Found left-over process 900541 (sshd) in control group while starting unit. Ignoring.
+Feb 25 14:31:56 dionysos systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Found left-over process 900542 (sh) in control group while starting unit. Ignoring.
+Feb 25 14:31:56 dionysos systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Found left-over process 904365 (sshd) in control group while starting unit. Ignoring.
+Feb 25 14:31:56 dionysos systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Feb 25 14:31:56 dionysos systemd[1]: ssh.service: Found left-over process 904373 (sshd) in control group while starting unit. Ignoring.
+Feb 25 14:31:56 dionysos systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Feb 25 14:31:56 dionysos systemd[1]: Started OpenBSD Secure Shell server.
+Feb 25 14:31:56 dionysos systemd[1]: run-rfc544f09a287460584636d530f999afc.scope: Succeeded.
+Feb 25 14:39:00 dionysos systemd[1]: Starting Clean php session files...
+Feb 25 14:39:00 dionysos systemd[1]: phpsessionclean.service: Succeeded.
+Feb 25 14:39:00 dionysos systemd[1]: Finished Clean php session files.

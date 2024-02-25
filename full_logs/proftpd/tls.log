@@ -1,0 +1,56 @@
+2024-01-28 15:24:20,350 mod_tls/2.9[25334]: TLS/TLS-C requested, starting TLS handshake
+2024-01-28 15:24:20,407 mod_tls/2.9[25334]: client supports secure renegotiations
+2024-01-28 15:24:20,407 mod_tls/2.9[25334]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-01-28 15:24:25,656 mod_tls/2.9[25334]: Protection set to Private
+2024-01-28 15:24:45,794 mod_tls/2.9[25409]: TLS/TLS-C requested, starting TLS handshake
+2024-01-28 15:24:45,810 mod_tls/2.9[25409]: client supports secure renegotiations
+2024-01-28 15:24:45,810 mod_tls/2.9[25409]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-01-28 15:24:45,891 mod_tls/2.9[25409]: Protection set to Private
+2024-02-01 19:33:50,940 mod_tls/2.9[120097]: TLS/TLS-C requested, starting TLS handshake
+2024-02-01 19:33:51,163 mod_tls/2.9[120097]: client supports secure renegotiations
+2024-02-01 19:33:51,163 mod_tls/2.9[120097]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-02-01 19:33:51,863 mod_tls/2.9[120097]: Protection set to Private
+2024-02-01 19:34:12,336 mod_tls/2.9[120133]: TLS/TLS-C requested, starting TLS handshake
+2024-02-01 19:34:12,371 mod_tls/2.9[120133]: client supports secure renegotiations
+2024-02-01 19:34:12,371 mod_tls/2.9[120133]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-02-01 19:34:12,595 mod_tls/2.9[120133]: Protection set to Private
+2024-02-01 19:36:04,634 mod_tls/2.9[121795]: TLS/TLS-C requested, starting TLS handshake
+2024-02-01 19:36:04,686 mod_tls/2.9[121795]: client supports secure renegotiations
+2024-02-01 19:36:04,686 mod_tls/2.9[121795]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-02-01 19:36:05,195 mod_tls/2.9[121795]: Protection set to Private
+2024-02-01 19:37:03,985 mod_tls/2.9[124823]: TLS/TLS-C requested, starting TLS handshake
+2024-02-01 19:37:04,166 mod_tls/2.9[124823]: client supports secure renegotiations
+2024-02-01 19:37:04,166 mod_tls/2.9[124823]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-02-01 19:37:04,585 mod_tls/2.9[124823]: Protection set to Private
+2024-02-01 19:37:24,863 mod_tls/2.9[124853]: TLS/TLS-C requested, starting TLS handshake
+2024-02-01 19:37:25,056 mod_tls/2.9[124853]: client supports secure renegotiations
+2024-02-01 19:37:25,056 mod_tls/2.9[124853]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-02-01 19:37:25,154 mod_tls/2.9[124853]: Protection set to Private
+2024-02-25 10:01:11,691 mod_tls/2.9[745723]: TLS/TLS-C requested, starting TLS handshake
+2024-02-25 10:01:11,708 mod_tls/2.9[745723]: client supports secure renegotiations
+2024-02-25 10:01:11,708 mod_tls/2.9[745723]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-02-25 10:01:11,929 mod_tls/2.9[745723]: Protection set to Private
+2024-02-25 10:01:12,010 mod_tls/2.9[745723]: client reused TLS session for data connection
+2024-02-25 10:01:12,010 mod_tls/2.9[745723]: TLSv1.2 data connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits, resumed session)
+2024-02-25 10:01:25,086 mod_tls/2.9[745723]: client reused TLS session for data connection
+2024-02-25 10:04:29,608 mod_tls/2.9[748170]: TLS/TLS-C requested, starting TLS handshake
+2024-02-25 10:04:29,835 mod_tls/2.9[748170]: client supports secure renegotiations
+2024-02-25 10:04:29,835 mod_tls/2.9[748170]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-02-25 10:04:30,096 mod_tls/2.9[748170]: Protection set to Private
+2024-02-25 10:04:30,732 mod_tls/2.9[748170]: client reused TLS session for data connection
+2024-02-25 10:04:30,732 mod_tls/2.9[748170]: TLSv1.2 data connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits, resumed session)
+2024-02-25 10:04:37,767 mod_tls/2.9[748170]: client reused TLS session for data connection
+2024-02-25 10:05:04,863 mod_tls/2.9[748577]: TLS/TLS-C requested, starting TLS handshake
+2024-02-25 10:05:04,971 mod_tls/2.9[748577]: client supports secure renegotiations
+2024-02-25 10:05:04,971 mod_tls/2.9[748577]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-02-25 10:05:11,567 mod_tls/2.9[748577]: Protection set to Private
+2024-02-25 10:05:11,728 mod_tls/2.9[748577]: client reused TLS session for data connection
+2024-02-25 10:05:11,728 mod_tls/2.9[748577]: TLSv1.2 data connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits, resumed session)
+2024-02-25 10:05:30,843 mod_tls/2.9[748577]: client reused TLS session for data connection
+2024-02-25 10:06:12,018 mod_tls/2.9[749364]: TLS/TLS-C requested, starting TLS handshake
+2024-02-25 10:06:12,157 mod_tls/2.9[749364]: client supports secure renegotiations
+2024-02-25 10:06:12,157 mod_tls/2.9[749364]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-02-25 10:06:52,417 mod_tls/2.9[749948]: TLS/TLS-C requested, starting TLS handshake
+2024-02-25 10:06:52,651 mod_tls/2.9[749948]: client supports secure renegotiations
+2024-02-25 10:06:52,651 mod_tls/2.9[749948]: TLSv1.2 connection accepted, using cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)
+2024-02-25 10:06:53,284 mod_tls/2.9[749948]: Protection set to Private

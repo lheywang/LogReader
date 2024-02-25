@@ -1,0 +1,1001 @@
+Fri Feb  2 16:24:41 2024 -> --------------------------------------
+Fri Feb  2 16:24:41 2024 -> freshclam daemon 0.103.10 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Fri Feb  2 16:24:41 2024 -> ClamAV update process started at Fri Feb  2 16:24:41 2024
+Fri Feb  2 16:24:41 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb  2 16:24:41 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb  2 16:24:41 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb  2 16:24:41 2024 -> daily database available for download (remote version: 27173)
+Fri Feb  2 16:24:43 2024 -> Update process terminated
+Sat Feb  3 08:55:17 2024 -> --------------------------------------
+Sat Feb  3 08:55:17 2024 -> freshclam daemon 0.103.10 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Sat Feb  3 08:55:17 2024 -> ClamAV update process started at Sat Feb  3 08:55:17 2024
+Sat Feb  3 08:55:17 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb  3 08:55:17 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb  3 08:55:17 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb  3 08:55:17 2024 -> daily database available for download (remote version: 27173)
+Sat Feb  3 08:55:24 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-efb452b5c277b7d7b8c7b72e55fa503f.tmp-daily.cvd' ...
+Sat Feb  3 08:55:29 2024 -> Database test passed.
+Sat Feb  3 08:55:29 2024 -> daily.cvd updated (version: 27173, sigs: 2052063, f-level: 90, builder: raynman)
+Sat Feb  3 08:55:29 2024 -> main database available for download (remote version: 62)
+Sat Feb  3 08:55:47 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-a177b4fa6fa906d3eceb9737772e21b5.tmp-main.cvd' ...
+Sat Feb  3 08:55:53 2024 -> Database test passed.
+Sat Feb  3 08:55:53 2024 -> main.cvd updated (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb  3 08:55:53 2024 -> bytecode database available for download (remote version: 334)
+Sat Feb  3 08:55:53 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-d01d797c535ccb136376ad045574b770.tmp-bytecode.cvd' ...
+Sat Feb  3 08:55:53 2024 -> Database test passed.
+Sat Feb  3 08:55:53 2024 -> bytecode.cvd updated (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb  3 08:55:53 2024 -> WARNING: Clamd was NOT notified: Can't connect to clamd through /var/run/clamav/clamd.ctl: No such file or directory
+Sat Feb  3 08:55:53 2024 -> --------------------------------------
+Sat Feb  3 12:55:53 2024 -> Received signal: wake up
+Sat Feb  3 12:55:53 2024 -> ClamAV update process started at Sat Feb  3 12:55:53 2024
+Sat Feb  3 12:55:53 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb  3 12:55:53 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb  3 12:55:53 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb  3 12:55:53 2024 -> daily database available for update (local version: 27173, remote version: 27174)
+Sat Feb  3 12:55:55 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-b2556e3168ba3bcc6587182380e31ed5.tmp-daily.cld' ...
+Sat Feb  3 12:55:59 2024 -> Database test passed.
+Sat Feb  3 12:55:59 2024 -> daily.cld updated (version: 27174, sigs: 2052115, f-level: 90, builder: raynman)
+Sat Feb  3 12:55:59 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb  3 12:55:59 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb  3 12:55:59 2024 -> Clamd successfully notified about the update.
+Sat Feb  3 12:55:59 2024 -> --------------------------------------
+Sat Feb  3 16:55:59 2024 -> Received signal: wake up
+Sat Feb  3 16:55:59 2024 -> ClamAV update process started at Sat Feb  3 16:55:59 2024
+Sat Feb  3 16:55:59 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb  3 16:55:59 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb  3 16:55:59 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb  3 16:55:59 2024 -> daily.cld database is up-to-date (version: 27174, sigs: 2052115, f-level: 90, builder: raynman)
+Sat Feb  3 16:55:59 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb  3 16:55:59 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb  3 16:55:59 2024 -> --------------------------------------
+Sat Feb  3 20:55:59 2024 -> Received signal: wake up
+Sat Feb  3 20:55:59 2024 -> ClamAV update process started at Sat Feb  3 20:55:59 2024
+Sat Feb  3 20:55:59 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb  3 20:55:59 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb  3 20:55:59 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb  3 20:55:59 2024 -> daily.cld database is up-to-date (version: 27174, sigs: 2052115, f-level: 90, builder: raynman)
+Sat Feb  3 20:55:59 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb  3 20:55:59 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb  3 20:55:59 2024 -> --------------------------------------
+Sun Feb  4 00:55:59 2024 -> Received signal: wake up
+Sun Feb  4 00:55:59 2024 -> ClamAV update process started at Sun Feb  4 00:55:59 2024
+Sun Feb  4 00:55:59 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb  4 00:55:59 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb  4 00:55:59 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb  4 00:55:59 2024 -> daily.cld database is up-to-date (version: 27174, sigs: 2052115, f-level: 90, builder: raynman)
+Sun Feb  4 00:55:59 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb  4 00:55:59 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb  4 00:55:59 2024 -> --------------------------------------
+Sun Feb  4 04:55:59 2024 -> Received signal: wake up
+Sun Feb  4 04:55:59 2024 -> ClamAV update process started at Sun Feb  4 04:55:59 2024
+Sun Feb  4 04:55:59 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb  4 04:55:59 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb  4 04:55:59 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb  4 04:55:59 2024 -> daily.cld database is up-to-date (version: 27174, sigs: 2052115, f-level: 90, builder: raynman)
+Sun Feb  4 04:55:59 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb  4 04:55:59 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb  4 04:55:59 2024 -> --------------------------------------
+Sun Feb  4 08:55:59 2024 -> Received signal: wake up
+Sun Feb  4 08:55:59 2024 -> ClamAV update process started at Sun Feb  4 08:55:59 2024
+Sun Feb  4 08:55:59 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb  4 08:55:59 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb  4 08:55:59 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb  4 08:55:59 2024 -> daily.cld database is up-to-date (version: 27174, sigs: 2052115, f-level: 90, builder: raynman)
+Sun Feb  4 08:55:59 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb  4 08:55:59 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb  4 08:55:59 2024 -> --------------------------------------
+Sun Feb  4 12:55:59 2024 -> Received signal: wake up
+Sun Feb  4 12:55:59 2024 -> ClamAV update process started at Sun Feb  4 12:55:59 2024
+Sun Feb  4 12:56:04 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb  4 12:56:04 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb  4 12:56:04 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb  4 12:56:04 2024 -> daily database available for update (local version: 27174, remote version: 27175)
+Sun Feb  4 12:56:05 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-228badeb6e14cfa074257ad974a12364.tmp-daily.cld' ...
+Sun Feb  4 12:56:09 2024 -> Database test passed.
+Sun Feb  4 12:56:09 2024 -> daily.cld updated (version: 27175, sigs: 2052246, f-level: 90, builder: raynman)
+Sun Feb  4 12:56:09 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb  4 12:56:09 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb  4 12:56:09 2024 -> Clamd successfully notified about the update.
+Sun Feb  4 12:56:09 2024 -> --------------------------------------
+Sun Feb  4 16:56:09 2024 -> Received signal: wake up
+Sun Feb  4 16:56:09 2024 -> ClamAV update process started at Sun Feb  4 16:56:09 2024
+Sun Feb  4 16:56:09 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb  4 16:56:09 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb  4 16:56:09 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb  4 16:56:09 2024 -> daily.cld database is up-to-date (version: 27175, sigs: 2052246, f-level: 90, builder: raynman)
+Sun Feb  4 16:56:09 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb  4 16:56:09 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb  4 16:56:09 2024 -> --------------------------------------
+Sun Feb  4 20:56:09 2024 -> Received signal: wake up
+Sun Feb  4 20:56:09 2024 -> ClamAV update process started at Sun Feb  4 20:56:09 2024
+Sun Feb  4 20:56:09 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb  4 20:56:09 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb  4 20:56:09 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb  4 20:56:09 2024 -> daily.cld database is up-to-date (version: 27175, sigs: 2052246, f-level: 90, builder: raynman)
+Sun Feb  4 20:56:09 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb  4 20:56:09 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb  4 20:56:09 2024 -> --------------------------------------
+Mon Feb  5 00:56:09 2024 -> Received signal: wake up
+Mon Feb  5 00:56:09 2024 -> ClamAV update process started at Mon Feb  5 00:56:09 2024
+Mon Feb  5 00:56:10 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb  5 00:56:10 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb  5 00:56:10 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb  5 00:56:10 2024 -> daily.cld database is up-to-date (version: 27175, sigs: 2052246, f-level: 90, builder: raynman)
+Mon Feb  5 00:56:10 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb  5 00:56:10 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb  5 00:56:10 2024 -> --------------------------------------
+Mon Feb  5 04:56:10 2024 -> Received signal: wake up
+Mon Feb  5 04:56:10 2024 -> ClamAV update process started at Mon Feb  5 04:56:10 2024
+Mon Feb  5 04:56:10 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb  5 04:56:10 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb  5 04:56:10 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb  5 04:56:10 2024 -> daily.cld database is up-to-date (version: 27175, sigs: 2052246, f-level: 90, builder: raynman)
+Mon Feb  5 04:56:10 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb  5 04:56:10 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb  5 04:56:10 2024 -> --------------------------------------
+Mon Feb  5 08:56:10 2024 -> Received signal: wake up
+Mon Feb  5 08:56:10 2024 -> ClamAV update process started at Mon Feb  5 08:56:10 2024
+Mon Feb  5 08:56:10 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb  5 08:56:10 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb  5 08:56:10 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb  5 08:56:10 2024 -> daily.cld database is up-to-date (version: 27175, sigs: 2052246, f-level: 90, builder: raynman)
+Mon Feb  5 08:56:10 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb  5 08:56:10 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb  5 08:56:10 2024 -> --------------------------------------
+Mon Feb  5 12:56:10 2024 -> Received signal: wake up
+Mon Feb  5 12:56:10 2024 -> ClamAV update process started at Mon Feb  5 12:56:10 2024
+Mon Feb  5 12:56:10 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb  5 12:56:10 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb  5 12:56:10 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb  5 12:56:10 2024 -> daily database available for update (local version: 27175, remote version: 27176)
+Mon Feb  5 12:56:11 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-ceb843b2821c5d3deb9ed9b4cf8c0181.tmp-daily.cld' ...
+Mon Feb  5 12:56:15 2024 -> Database test passed.
+Mon Feb  5 12:56:16 2024 -> daily.cld updated (version: 27176, sigs: 2052336, f-level: 90, builder: raynman)
+Mon Feb  5 12:56:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb  5 12:56:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb  5 12:56:16 2024 -> Clamd successfully notified about the update.
+Mon Feb  5 12:56:16 2024 -> --------------------------------------
+Mon Feb  5 16:56:16 2024 -> Received signal: wake up
+Mon Feb  5 16:56:16 2024 -> ClamAV update process started at Mon Feb  5 16:56:16 2024
+Mon Feb  5 16:56:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb  5 16:56:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb  5 16:56:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb  5 16:56:16 2024 -> daily.cld database is up-to-date (version: 27176, sigs: 2052336, f-level: 90, builder: raynman)
+Mon Feb  5 16:56:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb  5 16:56:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb  5 16:56:16 2024 -> --------------------------------------
+Mon Feb  5 20:56:16 2024 -> Received signal: wake up
+Mon Feb  5 20:56:16 2024 -> ClamAV update process started at Mon Feb  5 20:56:16 2024
+Mon Feb  5 20:56:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb  5 20:56:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb  5 20:56:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb  5 20:56:16 2024 -> daily.cld database is up-to-date (version: 27176, sigs: 2052336, f-level: 90, builder: raynman)
+Mon Feb  5 20:56:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb  5 20:56:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb  5 20:56:16 2024 -> --------------------------------------
+Tue Feb  6 00:56:16 2024 -> Received signal: wake up
+Tue Feb  6 00:56:16 2024 -> ClamAV update process started at Tue Feb  6 00:56:16 2024
+Tue Feb  6 00:56:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb  6 00:56:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb  6 00:56:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb  6 00:56:16 2024 -> daily.cld database is up-to-date (version: 27176, sigs: 2052336, f-level: 90, builder: raynman)
+Tue Feb  6 00:56:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb  6 00:56:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb  6 00:56:16 2024 -> --------------------------------------
+Tue Feb  6 04:56:16 2024 -> Received signal: wake up
+Tue Feb  6 04:56:16 2024 -> ClamAV update process started at Tue Feb  6 04:56:16 2024
+Tue Feb  6 04:56:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb  6 04:56:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb  6 04:56:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb  6 04:56:16 2024 -> daily.cld database is up-to-date (version: 27176, sigs: 2052336, f-level: 90, builder: raynman)
+Tue Feb  6 04:56:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb  6 04:56:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb  6 04:56:16 2024 -> --------------------------------------
+Tue Feb  6 08:56:16 2024 -> Received signal: wake up
+Tue Feb  6 08:56:16 2024 -> ClamAV update process started at Tue Feb  6 08:56:16 2024
+Tue Feb  6 08:56:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb  6 08:56:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb  6 08:56:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb  6 08:56:16 2024 -> daily.cld database is up-to-date (version: 27176, sigs: 2052336, f-level: 90, builder: raynman)
+Tue Feb  6 08:56:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb  6 08:56:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb  6 08:56:16 2024 -> --------------------------------------
+Tue Feb  6 12:56:16 2024 -> Received signal: wake up
+Tue Feb  6 12:56:16 2024 -> ClamAV update process started at Tue Feb  6 12:56:16 2024
+Tue Feb  6 12:56:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb  6 12:56:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb  6 12:56:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb  6 12:56:16 2024 -> daily database available for update (local version: 27176, remote version: 27177)
+Tue Feb  6 12:56:16 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-3719af2d29e556860b21609784604bc4.tmp-daily.cld' ...
+Tue Feb  6 12:56:21 2024 -> Database test passed.
+Tue Feb  6 12:56:21 2024 -> daily.cld updated (version: 27177, sigs: 2052428, f-level: 90, builder: raynman)
+Tue Feb  6 12:56:21 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb  6 12:56:21 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb  6 12:56:21 2024 -> Clamd successfully notified about the update.
+Tue Feb  6 12:56:21 2024 -> --------------------------------------
+Tue Feb  6 16:56:21 2024 -> Received signal: wake up
+Tue Feb  6 16:56:21 2024 -> ClamAV update process started at Tue Feb  6 16:56:21 2024
+Tue Feb  6 16:56:21 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb  6 16:56:21 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb  6 16:56:21 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb  6 16:56:21 2024 -> daily.cld database is up-to-date (version: 27177, sigs: 2052428, f-level: 90, builder: raynman)
+Tue Feb  6 16:56:21 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb  6 16:56:21 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb  6 16:56:21 2024 -> --------------------------------------
+Tue Feb  6 20:56:21 2024 -> Received signal: wake up
+Tue Feb  6 20:56:21 2024 -> ClamAV update process started at Tue Feb  6 20:56:21 2024
+Tue Feb  6 20:56:21 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb  6 20:56:21 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb  6 20:56:21 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb  6 20:56:21 2024 -> daily.cld database is up-to-date (version: 27177, sigs: 2052428, f-level: 90, builder: raynman)
+Tue Feb  6 20:56:21 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb  6 20:56:21 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb  6 20:56:21 2024 -> --------------------------------------
+Wed Feb  7 00:56:21 2024 -> Received signal: wake up
+Wed Feb  7 00:56:21 2024 -> ClamAV update process started at Wed Feb  7 00:56:21 2024
+Wed Feb  7 00:56:21 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb  7 00:56:21 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb  7 00:56:21 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb  7 00:56:21 2024 -> daily.cld database is up-to-date (version: 27177, sigs: 2052428, f-level: 90, builder: raynman)
+Wed Feb  7 00:56:21 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb  7 00:56:21 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb  7 00:56:21 2024 -> --------------------------------------
+Wed Feb  7 04:56:21 2024 -> Received signal: wake up
+Wed Feb  7 04:56:21 2024 -> ClamAV update process started at Wed Feb  7 04:56:21 2024
+Wed Feb  7 04:56:21 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb  7 04:56:21 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb  7 04:56:21 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb  7 04:56:21 2024 -> daily.cld database is up-to-date (version: 27177, sigs: 2052428, f-level: 90, builder: raynman)
+Wed Feb  7 04:56:21 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb  7 04:56:21 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb  7 04:56:21 2024 -> --------------------------------------
+Wed Feb  7 08:56:21 2024 -> Received signal: wake up
+Wed Feb  7 08:56:21 2024 -> ClamAV update process started at Wed Feb  7 08:56:21 2024
+Wed Feb  7 08:56:31 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb  7 08:56:31 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb  7 08:56:31 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb  7 08:56:31 2024 -> daily.cld database is up-to-date (version: 27177, sigs: 2052428, f-level: 90, builder: raynman)
+Wed Feb  7 08:56:31 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb  7 08:56:31 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb  7 08:56:31 2024 -> --------------------------------------
+Wed Feb  7 12:56:31 2024 -> Received signal: wake up
+Wed Feb  7 12:56:31 2024 -> ClamAV update process started at Wed Feb  7 12:56:31 2024
+Wed Feb  7 12:56:31 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb  7 12:56:31 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb  7 12:56:31 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb  7 12:56:31 2024 -> daily database available for update (local version: 27177, remote version: 27178)
+Wed Feb  7 12:56:32 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-99f93ebd7de85dfa5d006e8edf855023.tmp-daily.cld' ...
+Wed Feb  7 12:56:36 2024 -> Database test passed.
+Wed Feb  7 12:56:36 2024 -> daily.cld updated (version: 27178, sigs: 2052470, f-level: 90, builder: raynman)
+Wed Feb  7 12:56:36 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb  7 12:56:36 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb  7 12:56:36 2024 -> Clamd successfully notified about the update.
+Wed Feb  7 12:56:36 2024 -> --------------------------------------
+Wed Feb  7 16:56:36 2024 -> Received signal: wake up
+Wed Feb  7 16:56:36 2024 -> ClamAV update process started at Wed Feb  7 16:56:36 2024
+Wed Feb  7 16:56:37 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb  7 16:56:37 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb  7 16:56:37 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb  7 16:56:37 2024 -> daily.cld database is up-to-date (version: 27178, sigs: 2052470, f-level: 90, builder: raynman)
+Wed Feb  7 16:56:37 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb  7 16:56:37 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb  7 16:56:37 2024 -> --------------------------------------
+Wed Feb  7 20:56:37 2024 -> Received signal: wake up
+Wed Feb  7 20:56:37 2024 -> ClamAV update process started at Wed Feb  7 20:56:37 2024
+Wed Feb  7 20:56:37 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb  7 20:56:37 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb  7 20:56:37 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb  7 20:56:37 2024 -> daily.cld database is up-to-date (version: 27178, sigs: 2052470, f-level: 90, builder: raynman)
+Wed Feb  7 20:56:37 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb  7 20:56:37 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb  7 20:56:37 2024 -> --------------------------------------
+Thu Feb  8 00:56:37 2024 -> Received signal: wake up
+Thu Feb  8 00:56:37 2024 -> ClamAV update process started at Thu Feb  8 00:56:37 2024
+Thu Feb  8 00:56:37 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb  8 00:56:37 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb  8 00:56:37 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb  8 00:56:37 2024 -> daily.cld database is up-to-date (version: 27178, sigs: 2052470, f-level: 90, builder: raynman)
+Thu Feb  8 00:56:37 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb  8 00:56:37 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb  8 00:56:37 2024 -> --------------------------------------
+Thu Feb  8 04:56:37 2024 -> Received signal: wake up
+Thu Feb  8 04:56:37 2024 -> ClamAV update process started at Thu Feb  8 04:56:37 2024
+Thu Feb  8 04:56:37 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb  8 04:56:37 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb  8 04:56:37 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb  8 04:56:37 2024 -> daily.cld database is up-to-date (version: 27178, sigs: 2052470, f-level: 90, builder: raynman)
+Thu Feb  8 04:56:37 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb  8 04:56:37 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb  8 04:56:37 2024 -> --------------------------------------
+Thu Feb  8 08:56:37 2024 -> Received signal: wake up
+Thu Feb  8 08:56:37 2024 -> ClamAV update process started at Thu Feb  8 08:56:37 2024
+Thu Feb  8 08:56:37 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb  8 08:56:37 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb  8 08:56:37 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb  8 08:56:37 2024 -> daily.cld database is up-to-date (version: 27178, sigs: 2052470, f-level: 90, builder: raynman)
+Thu Feb  8 08:56:37 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb  8 08:56:37 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb  8 08:56:37 2024 -> --------------------------------------
+Thu Feb  8 12:56:37 2024 -> Received signal: wake up
+Thu Feb  8 12:56:37 2024 -> ClamAV update process started at Thu Feb  8 12:56:37 2024
+Thu Feb  8 12:56:37 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb  8 12:56:37 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb  8 12:56:37 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb  8 12:56:37 2024 -> daily database available for update (local version: 27178, remote version: 27179)
+Thu Feb  8 12:56:38 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-c57ad8f4dae97149e81aacea0a880a83.tmp-daily.cld' ...
+Thu Feb  8 12:56:42 2024 -> Database test passed.
+Thu Feb  8 12:56:42 2024 -> daily.cld updated (version: 27179, sigs: 2052546, f-level: 90, builder: raynman)
+Thu Feb  8 12:56:42 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb  8 12:56:42 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb  8 12:56:42 2024 -> Clamd successfully notified about the update.
+Thu Feb  8 12:56:42 2024 -> --------------------------------------
+Thu Feb  8 16:56:42 2024 -> Received signal: wake up
+Thu Feb  8 16:56:42 2024 -> ClamAV update process started at Thu Feb  8 16:56:42 2024
+Thu Feb  8 16:56:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb  8 16:56:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb  8 16:56:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb  8 16:56:43 2024 -> daily.cld database is up-to-date (version: 27179, sigs: 2052546, f-level: 90, builder: raynman)
+Thu Feb  8 16:56:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb  8 16:56:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb  8 16:56:43 2024 -> --------------------------------------
+Thu Feb  8 20:56:43 2024 -> Received signal: wake up
+Thu Feb  8 20:56:43 2024 -> ClamAV update process started at Thu Feb  8 20:56:43 2024
+Thu Feb  8 20:56:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb  8 20:56:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb  8 20:56:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb  8 20:56:43 2024 -> daily.cld database is up-to-date (version: 27179, sigs: 2052546, f-level: 90, builder: raynman)
+Thu Feb  8 20:56:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb  8 20:56:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb  8 20:56:43 2024 -> --------------------------------------
+Fri Feb  9 00:56:43 2024 -> Received signal: wake up
+Fri Feb  9 00:56:43 2024 -> ClamAV update process started at Fri Feb  9 00:56:43 2024
+Fri Feb  9 00:56:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb  9 00:56:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb  9 00:56:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb  9 00:56:43 2024 -> daily.cld database is up-to-date (version: 27179, sigs: 2052546, f-level: 90, builder: raynman)
+Fri Feb  9 00:56:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb  9 00:56:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb  9 00:56:43 2024 -> --------------------------------------
+Fri Feb  9 04:56:43 2024 -> Received signal: wake up
+Fri Feb  9 04:56:43 2024 -> ClamAV update process started at Fri Feb  9 04:56:43 2024
+Fri Feb  9 04:56:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb  9 04:56:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb  9 04:56:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb  9 04:56:43 2024 -> daily.cld database is up-to-date (version: 27179, sigs: 2052546, f-level: 90, builder: raynman)
+Fri Feb  9 04:56:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb  9 04:56:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb  9 04:56:43 2024 -> --------------------------------------
+Fri Feb  9 08:56:43 2024 -> Received signal: wake up
+Fri Feb  9 08:56:43 2024 -> ClamAV update process started at Fri Feb  9 08:56:43 2024
+Fri Feb  9 08:56:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb  9 08:56:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb  9 08:56:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb  9 08:56:43 2024 -> daily.cld database is up-to-date (version: 27179, sigs: 2052546, f-level: 90, builder: raynman)
+Fri Feb  9 08:56:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb  9 08:56:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb  9 08:56:43 2024 -> --------------------------------------
+Fri Feb  9 12:56:43 2024 -> Received signal: wake up
+Fri Feb  9 12:56:43 2024 -> ClamAV update process started at Fri Feb  9 12:56:43 2024
+Fri Feb  9 12:56:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb  9 12:56:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb  9 12:56:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb  9 12:56:43 2024 -> daily database available for update (local version: 27179, remote version: 27180)
+Fri Feb  9 12:56:43 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-58ce3b76aa4c38136e8f8348ab8276cc.tmp-daily.cld' ...
+Fri Feb  9 12:56:48 2024 -> Database test passed.
+Fri Feb  9 12:56:48 2024 -> daily.cld updated (version: 27180, sigs: 2052672, f-level: 90, builder: raynman)
+Fri Feb  9 12:56:48 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb  9 12:56:48 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb  9 12:56:48 2024 -> Clamd successfully notified about the update.
+Fri Feb  9 12:56:48 2024 -> --------------------------------------
+Fri Feb  9 16:56:48 2024 -> Received signal: wake up
+Fri Feb  9 16:56:48 2024 -> ClamAV update process started at Fri Feb  9 16:56:48 2024
+Fri Feb  9 16:56:48 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb  9 16:56:48 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb  9 16:56:48 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb  9 16:56:48 2024 -> daily.cld database is up-to-date (version: 27180, sigs: 2052672, f-level: 90, builder: raynman)
+Fri Feb  9 16:56:48 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb  9 16:56:48 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb  9 16:56:48 2024 -> --------------------------------------
+Fri Feb  9 20:56:48 2024 -> Received signal: wake up
+Fri Feb  9 20:56:48 2024 -> ClamAV update process started at Fri Feb  9 20:56:48 2024
+Fri Feb  9 20:56:48 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb  9 20:56:48 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb  9 20:56:48 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb  9 20:56:48 2024 -> daily.cld database is up-to-date (version: 27180, sigs: 2052672, f-level: 90, builder: raynman)
+Fri Feb  9 20:56:48 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb  9 20:56:48 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb  9 20:56:48 2024 -> --------------------------------------
+Sat Feb 10 00:56:48 2024 -> Received signal: wake up
+Sat Feb 10 00:56:48 2024 -> ClamAV update process started at Sat Feb 10 00:56:48 2024
+Sat Feb 10 00:56:48 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 10 00:56:48 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 10 00:56:48 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 10 00:56:48 2024 -> daily.cld database is up-to-date (version: 27180, sigs: 2052672, f-level: 90, builder: raynman)
+Sat Feb 10 00:56:48 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 10 00:56:48 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 10 00:56:48 2024 -> --------------------------------------
+Sat Feb 10 04:56:48 2024 -> Received signal: wake up
+Sat Feb 10 04:56:48 2024 -> ClamAV update process started at Sat Feb 10 04:56:48 2024
+Sat Feb 10 04:56:48 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 10 04:56:48 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 10 04:56:48 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 10 04:56:48 2024 -> daily.cld database is up-to-date (version: 27180, sigs: 2052672, f-level: 90, builder: raynman)
+Sat Feb 10 04:56:48 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 10 04:56:48 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 10 04:56:48 2024 -> --------------------------------------
+Sat Feb 10 08:56:48 2024 -> Received signal: wake up
+Sat Feb 10 08:56:48 2024 -> ClamAV update process started at Sat Feb 10 08:56:48 2024
+Sat Feb 10 08:56:48 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 10 08:56:48 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 10 08:56:48 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 10 08:56:48 2024 -> daily.cld database is up-to-date (version: 27180, sigs: 2052672, f-level: 90, builder: raynman)
+Sat Feb 10 08:56:48 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 10 08:56:48 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 10 08:56:48 2024 -> --------------------------------------
+Sat Feb 10 12:56:48 2024 -> Received signal: wake up
+Sat Feb 10 12:56:48 2024 -> ClamAV update process started at Sat Feb 10 12:56:48 2024
+Sat Feb 10 12:56:48 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 10 12:56:48 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 10 12:56:48 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 10 12:56:48 2024 -> daily database available for update (local version: 27180, remote version: 27181)
+Sat Feb 10 12:56:49 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-27fdfcaef490ee6649eedd7fab792619.tmp-daily.cld' ...
+Sat Feb 10 12:56:53 2024 -> Database test passed.
+Sat Feb 10 12:56:53 2024 -> daily.cld updated (version: 27181, sigs: 2052851, f-level: 90, builder: raynman)
+Sat Feb 10 12:56:53 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 10 12:56:53 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 10 12:56:53 2024 -> Clamd successfully notified about the update.
+Sat Feb 10 12:56:53 2024 -> --------------------------------------
+Sat Feb 10 16:56:53 2024 -> Received signal: wake up
+Sat Feb 10 16:56:53 2024 -> ClamAV update process started at Sat Feb 10 16:56:53 2024
+Sat Feb 10 16:56:54 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 10 16:56:54 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 10 16:56:54 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 10 16:56:54 2024 -> daily.cld database is up-to-date (version: 27181, sigs: 2052851, f-level: 90, builder: raynman)
+Sat Feb 10 16:56:54 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 10 16:56:54 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 10 16:56:54 2024 -> --------------------------------------
+Sat Feb 10 20:56:54 2024 -> Received signal: wake up
+Sat Feb 10 20:56:54 2024 -> ClamAV update process started at Sat Feb 10 20:56:54 2024
+Sat Feb 10 20:56:59 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 10 20:56:59 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 10 20:56:59 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 10 20:56:59 2024 -> daily.cld database is up-to-date (version: 27181, sigs: 2052851, f-level: 90, builder: raynman)
+Sat Feb 10 20:56:59 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 10 20:56:59 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 10 20:56:59 2024 -> --------------------------------------
+Sun Feb 11 00:56:59 2024 -> Received signal: wake up
+Sun Feb 11 00:56:59 2024 -> ClamAV update process started at Sun Feb 11 00:56:59 2024
+Sun Feb 11 00:56:59 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 11 00:56:59 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 11 00:56:59 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 11 00:56:59 2024 -> daily.cld database is up-to-date (version: 27181, sigs: 2052851, f-level: 90, builder: raynman)
+Sun Feb 11 00:56:59 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 11 00:56:59 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 11 00:56:59 2024 -> --------------------------------------
+Sun Feb 11 04:56:59 2024 -> Received signal: wake up
+Sun Feb 11 04:56:59 2024 -> ClamAV update process started at Sun Feb 11 04:56:59 2024
+Sun Feb 11 04:56:59 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 11 04:56:59 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 11 04:56:59 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 11 04:56:59 2024 -> daily.cld database is up-to-date (version: 27181, sigs: 2052851, f-level: 90, builder: raynman)
+Sun Feb 11 04:56:59 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 11 04:56:59 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 11 04:56:59 2024 -> --------------------------------------
+Sun Feb 11 08:56:59 2024 -> Received signal: wake up
+Sun Feb 11 08:56:59 2024 -> ClamAV update process started at Sun Feb 11 08:56:59 2024
+Sun Feb 11 08:56:59 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 11 08:56:59 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 11 08:56:59 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 11 08:56:59 2024 -> daily.cld database is up-to-date (version: 27181, sigs: 2052851, f-level: 90, builder: raynman)
+Sun Feb 11 08:56:59 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 11 08:56:59 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 11 08:56:59 2024 -> --------------------------------------
+Sun Feb 11 12:56:59 2024 -> Received signal: wake up
+Sun Feb 11 12:56:59 2024 -> ClamAV update process started at Sun Feb 11 12:56:59 2024
+Sun Feb 11 12:56:59 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 11 12:56:59 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 11 12:56:59 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 11 12:56:59 2024 -> daily database available for update (local version: 27181, remote version: 27182)
+Sun Feb 11 12:57:04 2024 -> Testing database: '/var/lib/clamav/tmp.3fed231013/clamav-95cc0162252328d39a305a750015401a.tmp-daily.cld' ...
+Sun Feb 11 12:57:09 2024 -> Database test passed.
+Sun Feb 11 12:57:09 2024 -> daily.cld updated (version: 27182, sigs: 2052980, f-level: 90, builder: raynman)
+Sun Feb 11 12:57:09 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 11 12:57:09 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 11 12:57:09 2024 -> Clamd successfully notified about the update.
+Sun Feb 11 12:57:09 2024 -> --------------------------------------
+Sun Feb 11 16:57:09 2024 -> Received signal: wake up
+Sun Feb 11 16:57:09 2024 -> ClamAV update process started at Sun Feb 11 16:57:09 2024
+Sun Feb 11 16:57:09 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 11 16:57:09 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 11 16:57:09 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 11 16:57:09 2024 -> daily.cld database is up-to-date (version: 27182, sigs: 2052980, f-level: 90, builder: raynman)
+Sun Feb 11 16:57:09 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 11 16:57:09 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 11 16:57:09 2024 -> --------------------------------------
+Sun Feb 11 20:57:09 2024 -> Received signal: wake up
+Sun Feb 11 20:57:09 2024 -> ClamAV update process started at Sun Feb 11 20:57:09 2024
+Sun Feb 11 20:57:09 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 11 20:57:09 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 11 20:57:09 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 11 20:57:09 2024 -> daily.cld database is up-to-date (version: 27182, sigs: 2052980, f-level: 90, builder: raynman)
+Sun Feb 11 20:57:09 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 11 20:57:09 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 11 20:57:09 2024 -> --------------------------------------
+Mon Feb 12 00:57:09 2024 -> Received signal: wake up
+Mon Feb 12 00:57:09 2024 -> ClamAV update process started at Mon Feb 12 00:57:09 2024
+Mon Feb 12 00:57:09 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb 12 00:57:09 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb 12 00:57:09 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb 12 00:57:09 2024 -> daily.cld database is up-to-date (version: 27182, sigs: 2052980, f-level: 90, builder: raynman)
+Mon Feb 12 00:57:09 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb 12 00:57:09 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb 12 00:57:09 2024 -> --------------------------------------
+Sat Feb 17 16:08:50 2024 -> --------------------------------------
+Sat Feb 17 16:08:50 2024 -> freshclam daemon 0.103.10 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Sat Feb 17 16:08:50 2024 -> ClamAV update process started at Sat Feb 17 16:08:50 2024
+Sat Feb 17 16:08:50 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 17 16:08:50 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 17 16:08:50 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 17 16:08:50 2024 -> daily database available for update (local version: 27182, remote version: 27188)
+Sat Feb 17 16:08:51 2024 -> Testing database: '/var/lib/clamav/tmp.0c363f3626/clamav-bd22c1b0b50d3dc3588235bc01e26fae.tmp-daily.cld' ...
+Sat Feb 17 16:08:57 2024 -> Database test passed.
+Sat Feb 17 16:08:57 2024 -> daily.cld updated (version: 27188, sigs: 2053641, f-level: 90, builder: raynman)
+Sat Feb 17 16:08:57 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 17 16:08:57 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 17 16:08:57 2024 -> WARNING: Clamd was NOT notified: Can't connect to clamd through /run/clamav/clamd.ctl: No such file or directory
+Sat Feb 17 16:08:57 2024 -> --------------------------------------
+Sat Feb 17 20:09:05 2024 -> Received signal: wake up
+Sat Feb 17 20:09:05 2024 -> ClamAV update process started at Sat Feb 17 20:09:05 2024
+Sat Feb 17 20:09:05 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 17 20:09:05 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 17 20:09:05 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 17 20:09:05 2024 -> daily.cld database is up-to-date (version: 27188, sigs: 2053641, f-level: 90, builder: raynman)
+Sat Feb 17 20:09:05 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 17 20:09:05 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 17 20:09:05 2024 -> --------------------------------------
+Sun Feb 18 00:09:05 2024 -> Received signal: wake up
+Sun Feb 18 00:09:05 2024 -> ClamAV update process started at Sun Feb 18 00:09:05 2024
+Sun Feb 18 00:09:05 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 18 00:09:05 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 18 00:09:05 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 18 00:09:05 2024 -> daily.cld database is up-to-date (version: 27188, sigs: 2053641, f-level: 90, builder: raynman)
+Sun Feb 18 00:09:05 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 18 00:09:05 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 18 00:09:05 2024 -> --------------------------------------
+Sun Feb 18 04:09:05 2024 -> Received signal: wake up
+Sun Feb 18 04:09:05 2024 -> ClamAV update process started at Sun Feb 18 04:09:05 2024
+Sun Feb 18 04:09:05 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 18 04:09:05 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 18 04:09:05 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 18 04:09:05 2024 -> daily.cld database is up-to-date (version: 27188, sigs: 2053641, f-level: 90, builder: raynman)
+Sun Feb 18 04:09:05 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 18 04:09:05 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 18 04:09:05 2024 -> --------------------------------------
+Sun Feb 18 08:09:05 2024 -> Received signal: wake up
+Sun Feb 18 08:09:05 2024 -> ClamAV update process started at Sun Feb 18 08:09:05 2024
+Sun Feb 18 08:09:05 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 18 08:09:05 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 18 08:09:05 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 18 08:09:05 2024 -> daily.cld database is up-to-date (version: 27188, sigs: 2053641, f-level: 90, builder: raynman)
+Sun Feb 18 08:09:05 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 18 08:09:05 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 18 08:09:05 2024 -> --------------------------------------
+Sun Feb 18 12:09:05 2024 -> Received signal: wake up
+Sun Feb 18 12:09:05 2024 -> ClamAV update process started at Sun Feb 18 12:09:05 2024
+Sun Feb 18 12:09:05 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 18 12:09:05 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 18 12:09:05 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 18 12:09:05 2024 -> daily database available for update (local version: 27188, remote version: 27189)
+Sun Feb 18 12:09:06 2024 -> Testing database: '/var/lib/clamav/tmp.0c363f3626/clamav-c9f44ddc48ea40ec65cafa03d9b7c7e6.tmp-daily.cld' ...
+Sun Feb 18 12:09:10 2024 -> Database test passed.
+Sun Feb 18 12:09:10 2024 -> daily.cld updated (version: 27189, sigs: 2053641, f-level: 90, builder: raynman)
+Sun Feb 18 12:09:10 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 18 12:09:10 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 18 12:09:10 2024 -> Clamd successfully notified about the update.
+Sun Feb 18 12:09:10 2024 -> --------------------------------------
+Sun Feb 18 16:09:10 2024 -> Received signal: wake up
+Sun Feb 18 16:09:10 2024 -> ClamAV update process started at Sun Feb 18 16:09:10 2024
+Sun Feb 18 16:09:10 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 18 16:09:10 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 18 16:09:10 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 18 16:09:10 2024 -> daily.cld database is up-to-date (version: 27189, sigs: 2053641, f-level: 90, builder: raynman)
+Sun Feb 18 16:09:10 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 18 16:09:10 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 18 16:09:10 2024 -> --------------------------------------
+Sun Feb 18 20:09:10 2024 -> Received signal: wake up
+Sun Feb 18 20:09:10 2024 -> ClamAV update process started at Sun Feb 18 20:09:10 2024
+Sun Feb 18 20:09:10 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 18 20:09:10 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 18 20:09:10 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 18 20:09:10 2024 -> daily.cld database is up-to-date (version: 27189, sigs: 2053641, f-level: 90, builder: raynman)
+Sun Feb 18 20:09:10 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 18 20:09:10 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 18 20:09:10 2024 -> --------------------------------------
+Mon Feb 19 00:09:10 2024 -> Received signal: wake up
+Mon Feb 19 00:09:10 2024 -> ClamAV update process started at Mon Feb 19 00:09:10 2024
+Mon Feb 19 00:09:11 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb 19 00:09:11 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb 19 00:09:11 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb 19 00:09:11 2024 -> daily.cld database is up-to-date (version: 27189, sigs: 2053641, f-level: 90, builder: raynman)
+Mon Feb 19 00:09:11 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb 19 00:09:11 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb 19 00:09:11 2024 -> --------------------------------------
+Mon Feb 19 04:09:11 2024 -> Received signal: wake up
+Mon Feb 19 04:09:11 2024 -> ClamAV update process started at Mon Feb 19 04:09:11 2024
+Mon Feb 19 04:09:11 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb 19 04:09:11 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb 19 04:09:11 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb 19 04:09:11 2024 -> daily.cld database is up-to-date (version: 27189, sigs: 2053641, f-level: 90, builder: raynman)
+Mon Feb 19 04:09:11 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb 19 04:09:11 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb 19 04:09:11 2024 -> --------------------------------------
+Mon Feb 19 08:09:11 2024 -> Received signal: wake up
+Mon Feb 19 08:09:11 2024 -> ClamAV update process started at Mon Feb 19 08:09:11 2024
+Mon Feb 19 08:09:11 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb 19 08:09:11 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb 19 08:09:11 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb 19 08:09:11 2024 -> daily.cld database is up-to-date (version: 27189, sigs: 2053641, f-level: 90, builder: raynman)
+Mon Feb 19 08:09:11 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb 19 08:09:11 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb 19 08:09:11 2024 -> --------------------------------------
+Mon Feb 19 12:09:11 2024 -> Received signal: wake up
+Mon Feb 19 12:09:11 2024 -> ClamAV update process started at Mon Feb 19 12:09:11 2024
+Mon Feb 19 12:09:11 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb 19 12:09:11 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb 19 12:09:11 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb 19 12:09:11 2024 -> daily database available for update (local version: 27189, remote version: 27190)
+Mon Feb 19 12:09:11 2024 -> Testing database: '/var/lib/clamav/tmp.0c363f3626/clamav-3c22feba9abad2e4e0368badff00784a.tmp-daily.cld' ...
+Mon Feb 19 12:09:16 2024 -> Database test passed.
+Mon Feb 19 12:09:16 2024 -> daily.cld updated (version: 27190, sigs: 2053641, f-level: 90, builder: raynman)
+Mon Feb 19 12:09:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb 19 12:09:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb 19 12:09:16 2024 -> Clamd successfully notified about the update.
+Mon Feb 19 12:09:16 2024 -> --------------------------------------
+Mon Feb 19 16:09:16 2024 -> Received signal: wake up
+Mon Feb 19 16:09:16 2024 -> ClamAV update process started at Mon Feb 19 16:09:16 2024
+Mon Feb 19 16:09:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb 19 16:09:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb 19 16:09:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb 19 16:09:16 2024 -> daily.cld database is up-to-date (version: 27190, sigs: 2053641, f-level: 90, builder: raynman)
+Mon Feb 19 16:09:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb 19 16:09:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb 19 16:09:16 2024 -> --------------------------------------
+Mon Feb 19 20:09:16 2024 -> Received signal: wake up
+Mon Feb 19 20:09:16 2024 -> ClamAV update process started at Mon Feb 19 20:09:16 2024
+Mon Feb 19 20:09:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Mon Feb 19 20:09:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Mon Feb 19 20:09:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Mon Feb 19 20:09:16 2024 -> daily.cld database is up-to-date (version: 27190, sigs: 2053641, f-level: 90, builder: raynman)
+Mon Feb 19 20:09:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Mon Feb 19 20:09:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Mon Feb 19 20:09:16 2024 -> --------------------------------------
+Tue Feb 20 00:09:16 2024 -> Received signal: wake up
+Tue Feb 20 00:09:16 2024 -> ClamAV update process started at Tue Feb 20 00:09:16 2024
+Tue Feb 20 00:09:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb 20 00:09:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb 20 00:09:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb 20 00:09:16 2024 -> daily.cld database is up-to-date (version: 27190, sigs: 2053641, f-level: 90, builder: raynman)
+Tue Feb 20 00:09:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb 20 00:09:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb 20 00:09:16 2024 -> --------------------------------------
+Tue Feb 20 04:09:16 2024 -> Received signal: wake up
+Tue Feb 20 04:09:16 2024 -> ClamAV update process started at Tue Feb 20 04:09:16 2024
+Tue Feb 20 04:09:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb 20 04:09:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb 20 04:09:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb 20 04:09:16 2024 -> daily.cld database is up-to-date (version: 27190, sigs: 2053641, f-level: 90, builder: raynman)
+Tue Feb 20 04:09:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb 20 04:09:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb 20 04:09:16 2024 -> --------------------------------------
+Tue Feb 20 08:09:16 2024 -> Received signal: wake up
+Tue Feb 20 08:09:16 2024 -> ClamAV update process started at Tue Feb 20 08:09:16 2024
+Tue Feb 20 08:09:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb 20 08:09:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb 20 08:09:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb 20 08:09:16 2024 -> daily.cld database is up-to-date (version: 27190, sigs: 2053641, f-level: 90, builder: raynman)
+Tue Feb 20 08:09:16 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb 20 08:09:16 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb 20 08:09:16 2024 -> --------------------------------------
+Tue Feb 20 12:09:16 2024 -> Received signal: wake up
+Tue Feb 20 12:09:16 2024 -> ClamAV update process started at Tue Feb 20 12:09:16 2024
+Tue Feb 20 12:09:16 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb 20 12:09:16 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb 20 12:09:16 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb 20 12:09:16 2024 -> daily database available for update (local version: 27190, remote version: 27191)
+Tue Feb 20 12:09:17 2024 -> Testing database: '/var/lib/clamav/tmp.0c363f3626/clamav-73f0b03d65a9883734d9db9265c0fe12.tmp-daily.cld' ...
+Tue Feb 20 12:09:21 2024 -> Database test passed.
+Tue Feb 20 12:09:21 2024 -> daily.cld updated (version: 27191, sigs: 2053641, f-level: 90, builder: raynman)
+Tue Feb 20 12:09:21 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb 20 12:09:21 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb 20 12:09:21 2024 -> Clamd successfully notified about the update.
+Tue Feb 20 12:09:21 2024 -> --------------------------------------
+Tue Feb 20 16:09:21 2024 -> Received signal: wake up
+Tue Feb 20 16:09:21 2024 -> ClamAV update process started at Tue Feb 20 16:09:21 2024
+Tue Feb 20 16:09:22 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb 20 16:09:22 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb 20 16:09:22 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb 20 16:09:22 2024 -> daily.cld database is up-to-date (version: 27191, sigs: 2053641, f-level: 90, builder: raynman)
+Tue Feb 20 16:09:22 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb 20 16:09:22 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb 20 16:09:22 2024 -> --------------------------------------
+Tue Feb 20 20:09:22 2024 -> Received signal: wake up
+Tue Feb 20 20:09:22 2024 -> ClamAV update process started at Tue Feb 20 20:09:22 2024
+Tue Feb 20 20:09:22 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Tue Feb 20 20:09:22 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Tue Feb 20 20:09:22 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Tue Feb 20 20:09:22 2024 -> daily.cld database is up-to-date (version: 27191, sigs: 2053641, f-level: 90, builder: raynman)
+Tue Feb 20 20:09:22 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Tue Feb 20 20:09:22 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Tue Feb 20 20:09:22 2024 -> --------------------------------------
+Wed Feb 21 00:09:22 2024 -> Received signal: wake up
+Wed Feb 21 00:09:22 2024 -> ClamAV update process started at Wed Feb 21 00:09:22 2024
+Wed Feb 21 00:09:22 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb 21 00:09:22 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb 21 00:09:22 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb 21 00:09:22 2024 -> daily.cld database is up-to-date (version: 27191, sigs: 2053641, f-level: 90, builder: raynman)
+Wed Feb 21 00:09:22 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb 21 00:09:22 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb 21 00:09:22 2024 -> --------------------------------------
+Wed Feb 21 04:09:22 2024 -> Received signal: wake up
+Wed Feb 21 04:09:22 2024 -> ClamAV update process started at Wed Feb 21 04:09:22 2024
+Wed Feb 21 04:09:22 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb 21 04:09:22 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb 21 04:09:22 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb 21 04:09:22 2024 -> daily.cld database is up-to-date (version: 27191, sigs: 2053641, f-level: 90, builder: raynman)
+Wed Feb 21 04:09:22 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb 21 04:09:22 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb 21 04:09:22 2024 -> --------------------------------------
+Wed Feb 21 08:09:22 2024 -> Received signal: wake up
+Wed Feb 21 08:09:22 2024 -> ClamAV update process started at Wed Feb 21 08:09:22 2024
+Wed Feb 21 08:09:22 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb 21 08:09:22 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb 21 08:09:22 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb 21 08:09:22 2024 -> daily.cld database is up-to-date (version: 27191, sigs: 2053641, f-level: 90, builder: raynman)
+Wed Feb 21 08:09:22 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb 21 08:09:22 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb 21 08:09:22 2024 -> --------------------------------------
+Wed Feb 21 12:09:22 2024 -> Received signal: wake up
+Wed Feb 21 12:09:22 2024 -> ClamAV update process started at Wed Feb 21 12:09:22 2024
+Wed Feb 21 12:09:22 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb 21 12:09:22 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb 21 12:09:22 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb 21 12:09:22 2024 -> daily database available for update (local version: 27191, remote version: 27192)
+Wed Feb 21 12:09:22 2024 -> Testing database: '/var/lib/clamav/tmp.0c363f3626/clamav-20a0fad7947a82b689ea8b2bcd078b36.tmp-daily.cld' ...
+Wed Feb 21 12:09:27 2024 -> Database test passed.
+Wed Feb 21 12:09:27 2024 -> daily.cld updated (version: 27192, sigs: 2053940, f-level: 90, builder: raynman)
+Wed Feb 21 12:09:27 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb 21 12:09:27 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb 21 12:09:27 2024 -> Clamd successfully notified about the update.
+Wed Feb 21 12:09:27 2024 -> --------------------------------------
+Wed Feb 21 16:09:27 2024 -> Received signal: wake up
+Wed Feb 21 16:09:27 2024 -> ClamAV update process started at Wed Feb 21 16:09:27 2024
+Wed Feb 21 16:09:27 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb 21 16:09:27 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb 21 16:09:27 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb 21 16:09:27 2024 -> daily.cld database is up-to-date (version: 27192, sigs: 2053940, f-level: 90, builder: raynman)
+Wed Feb 21 16:09:27 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb 21 16:09:27 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb 21 16:09:27 2024 -> --------------------------------------
+Wed Feb 21 20:09:27 2024 -> Received signal: wake up
+Wed Feb 21 20:09:27 2024 -> ClamAV update process started at Wed Feb 21 20:09:27 2024
+Wed Feb 21 20:09:27 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Wed Feb 21 20:09:27 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Wed Feb 21 20:09:27 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Wed Feb 21 20:09:27 2024 -> daily.cld database is up-to-date (version: 27192, sigs: 2053940, f-level: 90, builder: raynman)
+Wed Feb 21 20:09:27 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Wed Feb 21 20:09:27 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Wed Feb 21 20:09:27 2024 -> --------------------------------------
+Thu Feb 22 00:09:27 2024 -> Received signal: wake up
+Thu Feb 22 00:09:27 2024 -> ClamAV update process started at Thu Feb 22 00:09:27 2024
+Thu Feb 22 00:09:27 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb 22 00:09:27 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb 22 00:09:27 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb 22 00:09:27 2024 -> daily.cld database is up-to-date (version: 27192, sigs: 2053940, f-level: 90, builder: raynman)
+Thu Feb 22 00:09:27 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb 22 00:09:27 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb 22 00:09:27 2024 -> --------------------------------------
+Thu Feb 22 04:09:27 2024 -> Received signal: wake up
+Thu Feb 22 04:09:27 2024 -> ClamAV update process started at Thu Feb 22 04:09:27 2024
+Thu Feb 22 04:09:27 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb 22 04:09:27 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb 22 04:09:27 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb 22 04:09:27 2024 -> daily.cld database is up-to-date (version: 27192, sigs: 2053940, f-level: 90, builder: raynman)
+Thu Feb 22 04:09:27 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb 22 04:09:27 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb 22 04:09:27 2024 -> --------------------------------------
+Thu Feb 22 08:09:27 2024 -> Received signal: wake up
+Thu Feb 22 08:09:27 2024 -> ClamAV update process started at Thu Feb 22 08:09:27 2024
+Thu Feb 22 08:09:27 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb 22 08:09:27 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb 22 08:09:27 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb 22 08:09:27 2024 -> daily.cld database is up-to-date (version: 27192, sigs: 2053940, f-level: 90, builder: raynman)
+Thu Feb 22 08:09:27 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb 22 08:09:27 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb 22 08:09:27 2024 -> --------------------------------------
+Thu Feb 22 12:09:27 2024 -> Received signal: wake up
+Thu Feb 22 12:09:27 2024 -> ClamAV update process started at Thu Feb 22 12:09:27 2024
+Thu Feb 22 12:09:27 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb 22 12:09:27 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb 22 12:09:27 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb 22 12:09:27 2024 -> daily database available for update (local version: 27192, remote version: 27193)
+Thu Feb 22 12:09:28 2024 -> Testing database: '/var/lib/clamav/tmp.0c363f3626/clamav-bfd908f7218db29bc0c45c0f00d1d569.tmp-daily.cld' ...
+Thu Feb 22 12:09:32 2024 -> Database test passed.
+Thu Feb 22 12:09:32 2024 -> daily.cld updated (version: 27193, sigs: 2053961, f-level: 90, builder: raynman)
+Thu Feb 22 12:09:32 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb 22 12:09:32 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb 22 12:09:32 2024 -> Clamd successfully notified about the update.
+Thu Feb 22 12:09:32 2024 -> --------------------------------------
+Thu Feb 22 16:09:32 2024 -> Received signal: wake up
+Thu Feb 22 16:09:32 2024 -> ClamAV update process started at Thu Feb 22 16:09:32 2024
+Thu Feb 22 16:09:32 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb 22 16:09:32 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb 22 16:09:32 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb 22 16:09:32 2024 -> daily.cld database is up-to-date (version: 27193, sigs: 2053961, f-level: 90, builder: raynman)
+Thu Feb 22 16:09:32 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb 22 16:09:32 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb 22 16:09:32 2024 -> --------------------------------------
+Thu Feb 22 20:09:32 2024 -> Received signal: wake up
+Thu Feb 22 20:09:32 2024 -> ClamAV update process started at Thu Feb 22 20:09:32 2024
+Thu Feb 22 20:09:32 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Thu Feb 22 20:09:32 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Thu Feb 22 20:09:32 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Thu Feb 22 20:09:32 2024 -> daily.cld database is up-to-date (version: 27193, sigs: 2053961, f-level: 90, builder: raynman)
+Thu Feb 22 20:09:32 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Thu Feb 22 20:09:32 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Thu Feb 22 20:09:32 2024 -> --------------------------------------
+Fri Feb 23 00:09:32 2024 -> Received signal: wake up
+Fri Feb 23 00:09:32 2024 -> ClamAV update process started at Fri Feb 23 00:09:32 2024
+Fri Feb 23 00:09:32 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb 23 00:09:32 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb 23 00:09:32 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb 23 00:09:32 2024 -> daily.cld database is up-to-date (version: 27193, sigs: 2053961, f-level: 90, builder: raynman)
+Fri Feb 23 00:09:32 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb 23 00:09:32 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb 23 00:09:32 2024 -> --------------------------------------
+Fri Feb 23 04:09:32 2024 -> Received signal: wake up
+Fri Feb 23 04:09:32 2024 -> ClamAV update process started at Fri Feb 23 04:09:32 2024
+Fri Feb 23 04:09:32 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb 23 04:09:32 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb 23 04:09:32 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb 23 04:09:32 2024 -> daily.cld database is up-to-date (version: 27193, sigs: 2053961, f-level: 90, builder: raynman)
+Fri Feb 23 04:09:32 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb 23 04:09:32 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb 23 04:09:32 2024 -> --------------------------------------
+Fri Feb 23 08:09:32 2024 -> Received signal: wake up
+Fri Feb 23 08:09:32 2024 -> ClamAV update process started at Fri Feb 23 08:09:32 2024
+Fri Feb 23 08:09:32 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb 23 08:09:32 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb 23 08:09:32 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb 23 08:09:32 2024 -> daily.cld database is up-to-date (version: 27193, sigs: 2053961, f-level: 90, builder: raynman)
+Fri Feb 23 08:09:32 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb 23 08:09:32 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb 23 08:09:32 2024 -> --------------------------------------
+Fri Feb 23 12:09:32 2024 -> Received signal: wake up
+Fri Feb 23 12:09:32 2024 -> ClamAV update process started at Fri Feb 23 12:09:32 2024
+Fri Feb 23 12:09:32 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb 23 12:09:32 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb 23 12:09:32 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb 23 12:09:32 2024 -> daily database available for update (local version: 27193, remote version: 27194)
+Fri Feb 23 12:09:33 2024 -> Testing database: '/var/lib/clamav/tmp.0c363f3626/clamav-cf268752578712eb4142020215ffefff.tmp-daily.cld' ...
+Fri Feb 23 12:09:38 2024 -> Database test passed.
+Fri Feb 23 12:09:38 2024 -> daily.cld updated (version: 27194, sigs: 2054000, f-level: 90, builder: raynman)
+Fri Feb 23 12:09:38 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb 23 12:09:38 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb 23 12:09:38 2024 -> Clamd successfully notified about the update.
+Fri Feb 23 12:09:38 2024 -> --------------------------------------
+Fri Feb 23 16:09:38 2024 -> Received signal: wake up
+Fri Feb 23 16:09:38 2024 -> ClamAV update process started at Fri Feb 23 16:09:38 2024
+Fri Feb 23 16:09:38 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb 23 16:09:38 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb 23 16:09:38 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb 23 16:09:38 2024 -> daily.cld database is up-to-date (version: 27194, sigs: 2054000, f-level: 90, builder: raynman)
+Fri Feb 23 16:09:38 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb 23 16:09:38 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb 23 16:09:38 2024 -> --------------------------------------
+Fri Feb 23 20:09:38 2024 -> Received signal: wake up
+Fri Feb 23 20:09:38 2024 -> ClamAV update process started at Fri Feb 23 20:09:38 2024
+Fri Feb 23 20:09:38 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Fri Feb 23 20:09:38 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Fri Feb 23 20:09:38 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Fri Feb 23 20:09:38 2024 -> daily.cld database is up-to-date (version: 27194, sigs: 2054000, f-level: 90, builder: raynman)
+Fri Feb 23 20:09:38 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Feb 23 20:09:38 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Fri Feb 23 20:09:38 2024 -> --------------------------------------
+Sat Feb 24 00:09:38 2024 -> Received signal: wake up
+Sat Feb 24 00:09:38 2024 -> ClamAV update process started at Sat Feb 24 00:09:38 2024
+Sat Feb 24 00:09:38 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 24 00:09:38 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 24 00:09:38 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 24 00:09:38 2024 -> daily.cld database is up-to-date (version: 27194, sigs: 2054000, f-level: 90, builder: raynman)
+Sat Feb 24 00:09:38 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 24 00:09:38 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 24 00:09:38 2024 -> --------------------------------------
+Sat Feb 24 04:09:38 2024 -> Received signal: wake up
+Sat Feb 24 04:09:38 2024 -> ClamAV update process started at Sat Feb 24 04:09:38 2024
+Sat Feb 24 04:09:38 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 24 04:09:38 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 24 04:09:38 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 24 04:09:38 2024 -> daily.cld database is up-to-date (version: 27194, sigs: 2054000, f-level: 90, builder: raynman)
+Sat Feb 24 04:09:38 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 24 04:09:38 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 24 04:09:38 2024 -> --------------------------------------
+Sat Feb 24 08:09:38 2024 -> Received signal: wake up
+Sat Feb 24 08:09:38 2024 -> ClamAV update process started at Sat Feb 24 08:09:38 2024
+Sat Feb 24 08:09:38 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 24 08:09:38 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 24 08:09:38 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 24 08:09:38 2024 -> daily.cld database is up-to-date (version: 27194, sigs: 2054000, f-level: 90, builder: raynman)
+Sat Feb 24 08:09:38 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 24 08:09:38 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 24 08:09:38 2024 -> --------------------------------------
+Sat Feb 24 12:09:38 2024 -> Received signal: wake up
+Sat Feb 24 12:09:38 2024 -> ClamAV update process started at Sat Feb 24 12:09:38 2024
+Sat Feb 24 12:09:38 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 24 12:09:38 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 24 12:09:38 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 24 12:09:38 2024 -> daily database available for update (local version: 27194, remote version: 27195)
+Sat Feb 24 12:09:39 2024 -> Testing database: '/var/lib/clamav/tmp.0c363f3626/clamav-15e4d8c2d78c0ab52afeb1765d339fbd.tmp-daily.cld' ...
+Sat Feb 24 12:09:43 2024 -> Database test passed.
+Sat Feb 24 12:09:43 2024 -> daily.cld updated (version: 27195, sigs: 2054013, f-level: 90, builder: raynman)
+Sat Feb 24 12:09:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 24 12:09:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 24 12:09:43 2024 -> Clamd successfully notified about the update.
+Sat Feb 24 12:09:43 2024 -> --------------------------------------
+Sat Feb 24 16:09:43 2024 -> Received signal: wake up
+Sat Feb 24 16:09:43 2024 -> ClamAV update process started at Sat Feb 24 16:09:43 2024
+Sat Feb 24 16:09:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 24 16:09:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 24 16:09:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 24 16:09:43 2024 -> daily.cld database is up-to-date (version: 27195, sigs: 2054013, f-level: 90, builder: raynman)
+Sat Feb 24 16:09:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 24 16:09:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 24 16:09:43 2024 -> --------------------------------------
+Sat Feb 24 20:09:43 2024 -> Received signal: wake up
+Sat Feb 24 20:09:43 2024 -> ClamAV update process started at Sat Feb 24 20:09:43 2024
+Sat Feb 24 20:09:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sat Feb 24 20:09:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sat Feb 24 20:09:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sat Feb 24 20:09:43 2024 -> daily.cld database is up-to-date (version: 27195, sigs: 2054013, f-level: 90, builder: raynman)
+Sat Feb 24 20:09:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sat Feb 24 20:09:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sat Feb 24 20:09:43 2024 -> --------------------------------------
+Sun Feb 25 00:09:43 2024 -> Received signal: wake up
+Sun Feb 25 00:09:43 2024 -> ClamAV update process started at Sun Feb 25 00:09:43 2024
+Sun Feb 25 00:09:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 25 00:09:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 25 00:09:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 25 00:09:43 2024 -> daily.cld database is up-to-date (version: 27195, sigs: 2054013, f-level: 90, builder: raynman)
+Sun Feb 25 00:09:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 25 00:09:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 25 00:09:43 2024 -> --------------------------------------
+Sun Feb 25 04:09:43 2024 -> Received signal: wake up
+Sun Feb 25 04:09:43 2024 -> ClamAV update process started at Sun Feb 25 04:09:43 2024
+Sun Feb 25 04:09:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 25 04:09:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 25 04:09:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 25 04:09:43 2024 -> daily.cld database is up-to-date (version: 27195, sigs: 2054013, f-level: 90, builder: raynman)
+Sun Feb 25 04:09:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 25 04:09:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 25 04:09:43 2024 -> --------------------------------------
+Sun Feb 25 08:09:43 2024 -> Received signal: wake up
+Sun Feb 25 08:09:43 2024 -> ClamAV update process started at Sun Feb 25 08:09:43 2024
+Sun Feb 25 08:09:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 25 08:09:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 25 08:09:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 25 08:09:43 2024 -> daily.cld database is up-to-date (version: 27195, sigs: 2054013, f-level: 90, builder: raynman)
+Sun Feb 25 08:09:43 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 25 08:09:43 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 25 08:09:43 2024 -> --------------------------------------
+Sun Feb 25 12:09:43 2024 -> Received signal: wake up
+Sun Feb 25 12:09:43 2024 -> ClamAV update process started at Sun Feb 25 12:09:43 2024
+Sun Feb 25 12:09:43 2024 -> WARNING: Your ClamAV installation is OUTDATED!
+Sun Feb 25 12:09:43 2024 -> WARNING: Local version: 0.103.10 Recommended version: 0.103.11
+Sun Feb 25 12:09:43 2024 -> DON'T PANIC! Read https://docs.clamav.net/manual/Installing.html
+Sun Feb 25 12:09:43 2024 -> daily database available for update (local version: 27195, remote version: 27196)
+Sun Feb 25 12:09:45 2024 -> Testing database: '/var/lib/clamav/tmp.0c363f3626/clamav-74c854b87138a2e15971c1d5e0670ec9.tmp-daily.cld' ...
+Sun Feb 25 12:09:49 2024 -> Database test passed.
+Sun Feb 25 12:09:49 2024 -> daily.cld updated (version: 27196, sigs: 2054014, f-level: 90, builder: raynman)
+Sun Feb 25 12:09:49 2024 -> main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Sun Feb 25 12:09:49 2024 -> bytecode.cvd database is up-to-date (version: 334, sigs: 91, f-level: 90, builder: anvilleg)
+Sun Feb 25 12:09:49 2024 -> Clamd successfully notified about the update.
+Sun Feb 25 12:09:49 2024 -> --------------------------------------
