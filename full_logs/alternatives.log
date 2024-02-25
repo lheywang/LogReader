@@ -1,0 +1,18 @@
+update-alternatives 2024-02-02 16:25:02: run with --install /usr/bin/wsdump wsdump /usr/bin/python3-wsdump 200
+update-alternatives 2024-02-02 16:25:02: link group wsdump updated to point to /usr/bin/python3-wsdump
+update-alternatives 2024-02-02 16:28:08: run with --remove wsdump /usr/bin/python3-wsdump
+update-alternatives 2024-02-02 16:28:08: link group wsdump fully removed
+update-alternatives 2024-02-02 16:31:17: run with --install /usr/bin/wsdump wsdump /usr/bin/python3-wsdump 200
+update-alternatives 2024-02-02 16:31:17: link group wsdump updated to point to /usr/bin/python3-wsdump
+update-alternatives 2024-02-02 16:37:10: run with --remove wsdump /usr/bin/python3-wsdump
+update-alternatives 2024-02-02 16:37:10: link group wsdump fully removed
+update-alternatives 2024-02-03 09:20:15: run with --install /usr/bin/wsdump wsdump /usr/bin/python3-wsdump 200
+update-alternatives 2024-02-03 09:20:15: link group wsdump updated to point to /usr/bin/python3-wsdump
+update-alternatives 2024-02-10 16:45:17: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/my.cnf.fallback 100
+update-alternatives 2024-02-10 16:45:17: link group my.cnf updated to point to /etc/mysql/my.cnf.fallback
+update-alternatives 2024-02-10 16:45:17: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/mariadb.cnf 200
+update-alternatives 2024-02-10 16:45:17: link group my.cnf updated to point to /etc/mysql/mariadb.cnf
+update-alternatives 2024-02-17 16:08:49: run with --quiet --install /run/php/php-fpm.sock php-fpm.sock /run/php/php7.4-fpm.sock 74
+update-alternatives 2024-02-17 16:08:49: auto-repair link group php-fpm.sock
+update-alternatives 2024-02-17 16:11:07: run with --install /usr/sbin/rmt rmt /usr/sbin/rmt-tar 50 --slave /usr/share/man/man8/rmt.8.gz rmt.8.gz /usr/share/man/man8/rmt-tar.8.gz
+update-alternatives 2024-02-17 16:11:15: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/mariadb.cnf 200

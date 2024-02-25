@@ -1,0 +1,794 @@
+
+Log started: 2024-02-01  19:10:58
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41722 files and directories currently installed.)
+Preparing to unpack .../firmware-ath9k-htc_1.4.0-108-gd856466+dfsg1-1.3~bpo11+1_all.deb ...
+Unpacking firmware-ath9k-htc (1.4.0-108-gd856466+dfsg1-1.3~bpo11+1) over (1.4.0-106-gc583009+dfsg1-1) ...
+Setting up firmware-ath9k-htc (1.4.0-108-gd856466+dfsg1-1.3~bpo11+1) ...
+Log ended: 2024-02-01  19:10:58
+
+Log started: 2024-02-01  19:29:47
+Selecting previously unselected package openmediavault-filebrowser.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41722 files and directories currently installed.)
+Preparing to unpack .../openmediavault-filebrowser_6.0.8-1_all.deb ...
+Unpacking openmediavault-filebrowser (6.0.8-1) ...
+Setting up openmediavault-filebrowser (6.0.8-1) ...
+Adding 'filebrowser' user ...
+Trying to pull docker.io/filebrowser/filebrowser:latest...
+Getting image source signatures
+Copying blob 4b1a3e5e820111.4KiB / 7.0MiB
+Copying blob c50d22aad8c1187.0b / 187.0b
+[2A[JCopying blob 4b1a3e5e820111.4KiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+[2A[JCopying blob 4b1a3e5e820111.4KiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+[2A[JCopying blob 4b1a3e5e8201591.3KiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf367.3KiB / 4.5MiB
+Copying blob 661ff4d9561e243.9KiB / 3.3MiB
+[4A[JCopying blob 4b1a3e5e8201942.3KiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf735.3KiB / 4.5MiB
+Copying blob 661ff4d9561e527.3KiB / 3.3MiB
+Copying blob 6fb6694cc45b208.0b / 208.0b
+[5A[JCopying blob 4b1a3e5e8201942.3KiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf735.3KiB / 4.5MiB
+Copying blob 661ff4d9561e527.3KiB / 3.3MiB
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e8201942.3KiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf735.3KiB / 4.5MiB
+Copying blob 661ff4d9561e527.3KiB / 3.3MiB
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82011018.3KiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf895.2KiB / 4.5MiB
+Copying blob 661ff4d9561e646.3KiB / 3.3MiB
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82011.3MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf1.5MiB / 4.5MiB
+Copying blob 661ff4d9561e1.1MiB / 3.3MiB
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82011.7MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf2.0MiB / 4.5MiB
+Copying blob 661ff4d9561e1.5MiB / 3.3MiB
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82012.0MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf2.6MiB / 4.5MiB
+Copying blob 661ff4d9561e2.0MiB / 3.3MiB
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82012.3MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf3.2MiB / 4.5MiB
+Copying blob 661ff4d9561e2.4MiB / 3.3MiB
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82012.7MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf3.7MiB / 4.5MiB
+Copying blob 661ff4d9561e2.8MiB / 3.3MiB
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82013.0MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf4.3MiB / 4.5MiB
+Copying blob 661ff4d9561e3.3MiB / 3.3MiB
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82013.0MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf4.3MiB / 4.5MiB
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82013.0MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf4.3MiB / 4.5MiB
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82013.0MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf4.3MiB / 4.5MiB
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82013.2MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf4.5MiB / 4.5MiB
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82013.2MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf done
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82013.2MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf done
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82013.8MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf done
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+[5A[JCopying blob 4b1a3e5e82014.2MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf done
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+Copying blob c61e0fdb6ba5208.0b / 208.0b
+[6A[JCopying blob 4b1a3e5e82014.2MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf done
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+Copying blob c61e0fdb6ba5 done
+[6A[JCopying blob 4b1a3e5e82014.2MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf done
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+Copying blob c61e0fdb6ba5 done
+[6A[JCopying blob 4b1a3e5e82015.0MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf done
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+Copying blob c61e0fdb6ba5 done
+[6A[JCopying blob 4b1a3e5e82016.3MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf done
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+Copying blob c61e0fdb6ba5 done
+[6A[JCopying blob 4b1a3e5e82017.0MiB / 7.0MiB
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf done
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+Copying blob c61e0fdb6ba5 done
+[6A[JCopying blob 4b1a3e5e8201 done
+Copying blob c50d22aad8c1 done
+Copying blob d2f419ffcfcf done
+Copying blob 661ff4d9561e done
+Copying blob 6fb6694cc45b done
+Copying blob c61e0fdb6ba5 done
+Copying config 82121b93e32.9KiB / 2.9KiB
+[1A[JCopying config 82121b93e3 done
+[1A[JCopying config 82121b93e3 done
+Writing manifest to image destination
+Storing signatures
+82121b93e3e41639a79c9905f36b7dedc8fb6eb0d9c7501dde5435e263cdc571
+Trying to pull docker.io/library/caddy:latest...
+Getting image source signatures
+Copying blob 619be11036020.0b / 0.0b
+[1A[JCopying blob 619be1103602 skipped: already exists
+[1A[JCopying blob 619be1103602 skipped: already exists
+[1A[JCopying blob 619be1103602 skipped: already exists
+Copying blob dfcbb25232b80.0b / 0.0b
+[2A[JCopying blob 619be1103602 skipped: already exists
+Copying blob dfcbb25232b8 skipped: already exists
+[2A[JCopying blob 619be1103602 skipped: already exists
+Copying blob dfcbb25232b8 skipped: already exists
+[2A[JCopying blob 619be1103602 skipped: already exists
+Copying blob dfcbb25232b8 skipped: already exists
+Copying blob e9cf3211613d0.0b / 0.0b
+Copying config 66978cebfb7.6KiB / 7.6KiB
+[1A[JCopying config 66978cebfb done
+[1A[JCopying config 66978cebfb done
+Writing manifest to image destination
+Storing signatures
+66978cebfbcc9c0a17709b108582a40a369c525c764e9a8882f6cae260b32f4d
+Updating configuration database ...
+Updating configuration ...
+Processing triggers for openmediavault (6.9.12-2) ...
+Updating workbench configuration files ...
+Restarting engine daemon ...
+Log ended: 2024-02-01  19:29:55
+
+Log started: 2024-02-02  15:50:23
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41770 files and directories currently installed.)
+Preparing to unpack .../openmediavault_6.9.12-3_all.deb ...
+Unpacking openmediavault (6.9.12-3) over (6.9.12-2) ...
+Setting up openmediavault (6.9.12-3) ...
+Installing new version of config file /etc/udev/rules.d/61-openmediavault-dev-disk-by-id.rules ...
+Creating configuration database ...
+Migrating configuration database ...
+Setting up Salt environment ...
+Processing system modifications ...
+Processing triggers for rsyslog (8.2102.0-2+deb11u1) ...
+Processing triggers for openmediavault (6.9.12-3) ...
+Restarting engine daemon ...
+Updating workbench configuration files ...
+Log ended: 2024-02-02  15:50:44
+
+Log started: 2024-02-02  16:24:39
+Selecting previously unselected package clamav-base.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41850 files and directories currently installed.)
+Preparing to unpack .../0-clamav-base_0.103.10+dfsg-0+deb11u1_all.deb ...
+Unpacking clamav-base (0.103.10+dfsg-0+deb11u1) ...
+Selecting previously unselected package libltdl7:amd64.
+Preparing to unpack .../1-libltdl7_2.4.6-15_amd64.deb ...
+Unpacking libltdl7:amd64 (2.4.6-15) ...
+Selecting previously unselected package libmspack0:amd64.
+Preparing to unpack .../2-libmspack0_0.10.1-2_amd64.deb ...
+Unpacking libmspack0:amd64 (0.10.1-2) ...
+Selecting previously unselected package libtfm1:amd64.
+Preparing to unpack .../3-libtfm1_0.13-4_amd64.deb ...
+Unpacking libtfm1:amd64 (0.13-4) ...
+Selecting previously unselected package libclamav9:amd64.
+Preparing to unpack .../4-libclamav9_0.103.10+dfsg-0+deb11u1_amd64.deb ...
+Unpacking libclamav9:amd64 (0.103.10+dfsg-0+deb11u1) ...
+Selecting previously unselected package clamav-freshclam.
+Preparing to unpack .../5-clamav-freshclam_0.103.10+dfsg-0+deb11u1_amd64.deb ...
+Unpacking clamav-freshclam (0.103.10+dfsg-0+deb11u1) ...
+Selecting previously unselected package clamav-daemon.
+Preparing to unpack .../6-clamav-daemon_0.103.10+dfsg-0+deb11u1_amd64.deb ...
+Unpacking clamav-daemon (0.103.10+dfsg-0+deb11u1) ...
+Selecting previously unselected package clamdscan.
+Preparing to unpack .../7-clamdscan_0.103.10+dfsg-0+deb11u1_amd64.deb ...
+Unpacking clamdscan (0.103.10+dfsg-0+deb11u1) ...
+Selecting previously unselected package openmediavault-clamav.
+Preparing to unpack .../8-openmediavault-clamav_6.0.7-2_all.deb ...
+Unpacking openmediavault-clamav (6.0.7-2) ...
+Setting up libmspack0:amd64 (0.10.1-2) ...
+Setting up libtfm1:amd64 (0.13-4) ...
+Setting up libltdl7:amd64 (2.4.6-15) ...
+Setting up clamav-base (0.103.10+dfsg-0+deb11u1) ...
+id: ‘clamav’: no such user
+Setting up libclamav9:amd64 (0.103.10+dfsg-0+deb11u1) ...
+Setting up clamav-freshclam (0.103.10+dfsg-0+deb11u1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/clamav-freshclam.service → /lib/systemd/system/clamav-freshclam.service.
+Setting up clamdscan (0.103.10+dfsg-0+deb11u1) ...
+Setting up clamav-daemon (0.103.10+dfsg-0+deb11u1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/clamav-daemon.service → /lib/systemd/system/clamav-daemon.service.
+Setting up openmediavault-clamav (6.0.7-2) ...
+Updating service units ...
+Warning: The unit file, source configuration file or drop-ins of clamav-freshclam.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+Updating configuration database ...
+Processing triggers for libc-bin (2.31-13+deb11u7) ...
+Processing triggers for openmediavault (6.9.12-3) ...
+Updating workbench configuration files ...
+Restarting engine daemon ...
+Log ended: 2024-02-02  16:24:45
+
+Log started: 2024-02-02  16:24:59
+Selecting previously unselected package openmediavault-sharerootfs.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42043 files and directories currently installed.)
+Preparing to unpack .../0-openmediavault-sharerootfs_6.0.3-1_all.deb ...
+Unpacking openmediavault-sharerootfs (6.0.3-1) ...
+Selecting previously unselected package python3-lib2to3.
+Preparing to unpack .../1-python3-lib2to3_3.9.2-1_all.deb ...
+Unpacking python3-lib2to3 (3.9.2-1) ...
+Selecting previously unselected package python3-distutils.
+Preparing to unpack .../2-python3-distutils_3.9.2-1_all.deb ...
+Unpacking python3-distutils (3.9.2-1) ...
+Selecting previously unselected package python3-websocket.
+Preparing to unpack .../3-python3-websocket_0.57.0-1_all.deb ...
+Unpacking python3-websocket (0.57.0-1) ...
+Selecting previously unselected package python3-docker.
+Preparing to unpack .../4-python3-docker_4.1.0-1.2_all.deb ...
+Unpacking python3-docker (4.1.0-1.2) ...
+Selecting previously unselected package python3-unidecode.
+Preparing to unpack .../5-python3-unidecode_1.2.0-1_all.deb ...
+Unpacking python3-unidecode (1.2.0-1) ...
+Selecting previously unselected package python3-pretty-yaml.
+Preparing to unpack .../6-python3-pretty-yaml_20.4.0-1_all.deb ...
+Unpacking python3-pretty-yaml (20.4.0-1) ...
+Selecting previously unselected package openmediavault-compose.
+Preparing to unpack .../7-openmediavault-compose_6.11.3_all.deb ...
+Unpacking openmediavault-compose (6.11.3) ...
+Setting up openmediavault-sharerootfs (6.0.3-1) ...
+Updating configuration ...
+Setting up python3-lib2to3 (3.9.2-1) ...
+Setting up python3-unidecode (1.2.0-1) ...
+Setting up python3-websocket (0.57.0-1) ...
+update-alternatives: using /usr/bin/python3-wsdump to provide /usr/bin/wsdump (wsdump) in auto mode
+Setting up python3-distutils (3.9.2-1) ...
+Setting up python3-docker (4.1.0-1.2) ...
+Setting up python3-pretty-yaml (20.4.0-1) ...
+Setting up openmediavault-compose (6.11.3) ...
+Updating configuration database ...
+Downloading yq ...
+--2024-02-02 16:25:03--  https://github.com/mikefarah/yq/releases/download/v4.35.2/yq_linux_amd64
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/43225113/a1cc9e6e-1f98-4060-b855-d57572141648?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240202%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240202T162304Z&X-Amz-Expires=300&X-Amz-Signature=efd1edd5097f062d8c6b852fa34dd51b58e410184aedafea73cb700e19d0e0de&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=43225113&response-content-disposition=attachment%3B%20filename%3Dyq_linux_amd64&response-content-type=application%2Foctet-stream [following]
+--2024-02-02 16:25:04--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/43225113/a1cc9e6e-1f98-4060-b855-d57572141648?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240202%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240202T162304Z&X-Amz-Expires=300&X-Amz-Signature=efd1edd5097f062d8c6b852fa34dd51b58e410184aedafea73cb700e19d0e0de&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=43225113&response-content-disposition=attachment%3B%20filename%3Dyq_linux_amd64&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.109.133, 185.199.108.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8855552 (8.4M) [application/octet-stream]
+Saving to: ‘/usr/local/bin/yq’
+
+/usr/local/bin/yq     0%[                    ]       0  --.-KB/s               /usr/local/bin/yq    24%[===>                ]   2.05M  10.2MB/s               /usr/local/bin/yq    50%[=========>          ]   4.30M  10.7MB/s               /usr/local/bin/yq    76%[==============>     ]   6.46M  10.7MB/s               /usr/local/bin/yq   100%[===================>]   8.45M  10.8MB/s    in 0.8s    
+
+2024-02-02 16:25:05 (10.8 MB/s) - ‘/usr/local/bin/yq’ saved [8855552/8855552]
+
+Processing triggers for openmediavault (6.9.12-3) ...
+Updating workbench configuration files ...
+Restarting engine daemon ...
+Log ended: 2024-02-02  16:25:06
+
+Log started: 2024-02-02  16:25:16
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42652 files and directories currently installed.)
+Preparing to unpack .../openmediavault-compose_6.11.3_all.deb ...
+Unpacking openmediavault-compose (6.11.3) over (6.11.3) ...
+Setting up openmediavault-compose (6.11.3) ...
+Updating configuration database ...
+Checking yq version ...
+Correct version of yq installed - 'v4.35.2'
+Processing triggers for openmediavault (6.9.12-3) ...
+Updating workbench configuration files ...
+Restarting engine daemon ...
+Log ended: 2024-02-02  16:25:18
+
+Log started: 2024-02-02  16:28:07
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42650 files and directories currently installed.)
+Removing openmediavault-compose (6.11.3) ...
+Removing openmediavault-sharerootfs (6.0.3-1) ...
+Removing python3-docker (4.1.0-1.2) ...
+Removing python3-distutils (3.9.2-1) ...
+Removing python3-lib2to3 (3.9.2-1) ...
+Removing python3-pretty-yaml (20.4.0-1) ...
+Removing python3-unidecode (1.2.0-1) ...
+Removing python3-websocket (0.57.0-1) ...
+Processing triggers for openmediavault (6.9.12-3) ...
+Restarting engine daemon ...
+Updating workbench configuration files ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42042 files and directories currently installed.)
+Purging configuration files for openmediavault-compose (6.11.3) ...
+Purging configuration files for openmediavault-sharerootfs (6.0.3-1) ...
+Cleaning up configuration database ...
+Deleted 1 object(s)
+Processing triggers for openmediavault (6.9.12-3) ...
+Updating workbench configuration files ...
+Log ended: 2024-02-02  16:28:11
+
+Log started: 2024-02-02  16:31:14
+Selecting previously unselected package openmediavault-sharerootfs.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42043 files and directories currently installed.)
+Preparing to unpack .../0-openmediavault-sharerootfs_6.0.3-1_all.deb ...
+Unpacking openmediavault-sharerootfs (6.0.3-1) ...
+Selecting previously unselected package python3-lib2to3.
+Preparing to unpack .../1-python3-lib2to3_3.9.2-1_all.deb ...
+Unpacking python3-lib2to3 (3.9.2-1) ...
+Selecting previously unselected package python3-distutils.
+Preparing to unpack .../2-python3-distutils_3.9.2-1_all.deb ...
+Unpacking python3-distutils (3.9.2-1) ...
+Selecting previously unselected package python3-websocket.
+Preparing to unpack .../3-python3-websocket_0.57.0-1_all.deb ...
+Unpacking python3-websocket (0.57.0-1) ...
+Selecting previously unselected package python3-docker.
+Preparing to unpack .../4-python3-docker_4.1.0-1.2_all.deb ...
+Unpacking python3-docker (4.1.0-1.2) ...
+Selecting previously unselected package python3-unidecode.
+Preparing to unpack .../5-python3-unidecode_1.2.0-1_all.deb ...
+Unpacking python3-unidecode (1.2.0-1) ...
+Selecting previously unselected package python3-pretty-yaml.
+Preparing to unpack .../6-python3-pretty-yaml_20.4.0-1_all.deb ...
+Unpacking python3-pretty-yaml (20.4.0-1) ...
+Selecting previously unselected package openmediavault-compose.
+Preparing to unpack .../7-openmediavault-compose_6.11.3_all.deb ...
+Unpacking openmediavault-compose (6.11.3) ...
+Setting up openmediavault-sharerootfs (6.0.3-1) ...
+Updating configuration ...
+Setting up python3-lib2to3 (3.9.2-1) ...
+Setting up python3-unidecode (1.2.0-1) ...
+Setting up python3-websocket (0.57.0-1) ...
+update-alternatives: using /usr/bin/python3-wsdump to provide /usr/bin/wsdump (wsdump) in auto mode
+Setting up python3-distutils (3.9.2-1) ...
+Setting up python3-docker (4.1.0-1.2) ...
+Setting up python3-pretty-yaml (20.4.0-1) ...
+Setting up openmediavault-compose (6.11.3) ...
+Updating configuration database ...
+Checking yq version ...
+Correct version of yq installed - 'v4.35.2'
+Processing triggers for openmediavault (6.9.12-3) ...
+Updating workbench configuration files ...
+Restarting engine daemon ...
+Log ended: 2024-02-02  16:31:20
+
+Log started: 2024-02-02  16:33:16
+Selecting previously unselected package containerd.io.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42652 files and directories currently installed.)
+Preparing to unpack .../containerd.io_1.6.28-1_amd64.deb ...
+Unpacking containerd.io (1.6.28-1) ...
+Selecting previously unselected package docker-ce-cli.
+Preparing to unpack .../docker-ce-cli_5%3a25.0.2-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-ce-cli (5:25.0.2-1~debian.11~bullseye) ...
+Selecting previously unselected package docker-ce.
+Preparing to unpack .../docker-ce_5%3a25.0.2-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-ce (5:25.0.2-1~debian.11~bullseye) ...
+Setting up containerd.io (1.6.28-1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service -> /lib/systemd/system/containerd.service.
+Setting up docker-ce-cli (5:25.0.2-1~debian.11~bullseye) ...
+Setting up docker-ce (5:25.0.2-1~debian.11~bullseye) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service -> /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket -> /lib/systemd/system/docker.socket.
+Log ended: 2024-02-02  16:33:24
+
+Log started: 2024-02-02  16:33:31
+Selecting previously unselected package docker-buildx-plugin.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42877 files and directories currently installed.)
+Preparing to unpack .../docker-buildx-plugin_0.12.1-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-buildx-plugin (0.12.1-1~debian.11~bullseye) ...
+Selecting previously unselected package docker-compose-plugin.
+Preparing to unpack .../docker-compose-plugin_2.24.5-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-compose-plugin (2.24.5-1~debian.11~bullseye) ...
+Setting up docker-buildx-plugin (0.12.1-1~debian.11~bullseye) ...
+Setting up docker-compose-plugin (2.24.5-1~debian.11~bullseye) ...
+Log ended: 2024-02-02  16:33:34
+
+Log started: 2024-02-02  16:37:09
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42882 files and directories currently installed.)
+Removing openmediavault-compose (6.11.3) ...
+Removing openmediavault-sharerootfs (6.0.3-1) ...
+Removing python3-docker (4.1.0-1.2) ...
+Removing python3-distutils (3.9.2-1) ...
+Removing python3-lib2to3 (3.9.2-1) ...
+Removing python3-pretty-yaml (20.4.0-1) ...
+Removing python3-unidecode (1.2.0-1) ...
+Removing python3-websocket (0.57.0-1) ...
+Processing triggers for openmediavault (6.9.12-3) ...
+Restarting engine daemon ...
+Updating workbench configuration files ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42274 files and directories currently installed.)
+Purging configuration files for openmediavault-compose (6.11.3) ...
+Purging configuration files for openmediavault-sharerootfs (6.0.3-1) ...
+Cleaning up configuration database ...
+Deleted 1 object(s)
+Processing triggers for openmediavault (6.9.12-3) ...
+Updating workbench configuration files ...
+Log ended: 2024-02-02  16:37:13
+
+Log started: 2024-02-03  09:20:12
+Selecting previously unselected package openmediavault-sharerootfs.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42275 files and directories currently installed.)
+Preparing to unpack .../0-openmediavault-sharerootfs_6.0.3-1_all.deb ...
+Unpacking openmediavault-sharerootfs (6.0.3-1) ...
+Selecting previously unselected package python3-lib2to3.
+Preparing to unpack .../1-python3-lib2to3_3.9.2-1_all.deb ...
+Unpacking python3-lib2to3 (3.9.2-1) ...
+Selecting previously unselected package python3-distutils.
+Preparing to unpack .../2-python3-distutils_3.9.2-1_all.deb ...
+Unpacking python3-distutils (3.9.2-1) ...
+Selecting previously unselected package python3-websocket.
+Preparing to unpack .../3-python3-websocket_0.57.0-1_all.deb ...
+Unpacking python3-websocket (0.57.0-1) ...
+Selecting previously unselected package python3-docker.
+Preparing to unpack .../4-python3-docker_4.1.0-1.2_all.deb ...
+Unpacking python3-docker (4.1.0-1.2) ...
+Selecting previously unselected package python3-unidecode.
+Preparing to unpack .../5-python3-unidecode_1.2.0-1_all.deb ...
+Unpacking python3-unidecode (1.2.0-1) ...
+Selecting previously unselected package python3-pretty-yaml.
+Preparing to unpack .../6-python3-pretty-yaml_20.4.0-1_all.deb ...
+Unpacking python3-pretty-yaml (20.4.0-1) ...
+Selecting previously unselected package openmediavault-compose.
+Preparing to unpack .../7-openmediavault-compose_6.11.3_all.deb ...
+Unpacking openmediavault-compose (6.11.3) ...
+Setting up openmediavault-sharerootfs (6.0.3-1) ...
+Updating configuration ...
+Setting up python3-lib2to3 (3.9.2-1) ...
+Setting up python3-unidecode (1.2.0-1) ...
+Setting up python3-websocket (0.57.0-1) ...
+update-alternatives: using /usr/bin/python3-wsdump to provide /usr/bin/wsdump (wsdump) in auto mode
+Setting up python3-distutils (3.9.2-1) ...
+Setting up python3-docker (4.1.0-1.2) ...
+Setting up python3-pretty-yaml (20.4.0-1) ...
+Setting up openmediavault-compose (6.11.3) ...
+Updating configuration database ...
+Checking yq version ...
+Correct version of yq installed - 'v4.35.2'
+Processing triggers for openmediavault (6.9.12-3) ...
+Updating workbench configuration files ...
+Restarting engine daemon ...
+Log ended: 2024-02-03  09:20:18
+
+Log started: 2024-02-04  10:56:15
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42884 files and directories currently installed.)
+Preparing to unpack .../openmediavault_6.9.13-1_all.deb ...
+Unpacking openmediavault (6.9.13-1) over (6.9.12-3) ...
+Setting up openmediavault (6.9.13-1) ...
+Creating configuration database ...
+Migrating configuration database ...
+Setting up Salt environment ...
+Processing system modifications ...
+Processing triggers for rsyslog (8.2102.0-2+deb11u1) ...
+Processing triggers for openmediavault (6.9.13-1) ...
+Restarting engine daemon ...
+Updating workbench configuration files ...
+Log ended: 2024-02-04  10:56:37
+
+Log started: 2024-02-10  10:08:18
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42884 files and directories currently installed.)
+Preparing to unpack .../docker-ce-cli_5%3a25.0.3-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-ce-cli (5:25.0.3-1~debian.11~bullseye) over (5:25.0.2-1~debian.11~bullseye) ...
+Preparing to unpack .../docker-ce_5%3a25.0.3-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-ce (5:25.0.3-1~debian.11~bullseye) over (5:25.0.2-1~debian.11~bullseye) ...
+Setting up docker-ce-cli (5:25.0.3-1~debian.11~bullseye) ...
+Setting up docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+Log ended: 2024-02-10  10:08:28
+
+Log started: 2024-02-10  16:45:16
+Selecting previously unselected package libconfig-inifiles-perl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42884 files and directories currently installed.)
+Preparing to unpack .../0-libconfig-inifiles-perl_3.000003-1_all.deb ...
+Unpacking libconfig-inifiles-perl (3.000003-1) ...
+Selecting previously unselected package mysql-common.
+Preparing to unpack .../1-mysql-common_5.8+1.0.7_all.deb ...
+Unpacking mysql-common (5.8+1.0.7) ...
+Selecting previously unselected package mariadb-common.
+Preparing to unpack .../2-mariadb-common_1%3a10.5.21-0+deb11u1_all.deb ...
+Unpacking mariadb-common (1:10.5.21-0+deb11u1) ...
+Selecting previously unselected package libmariadb3:amd64.
+Preparing to unpack .../3-libmariadb3_1%3a10.5.21-0+deb11u1_amd64.deb ...
+Unpacking libmariadb3:amd64 (1:10.5.21-0+deb11u1) ...
+Selecting previously unselected package mariadb-client-core-10.5.
+Preparing to unpack .../4-mariadb-client-core-10.5_1%3a10.5.21-0+deb11u1_amd64.deb ...
+Unpacking mariadb-client-core-10.5 (1:10.5.21-0+deb11u1) ...
+Selecting previously unselected package mariadb-client-10.5.
+Preparing to unpack .../5-mariadb-client-10.5_1%3a10.5.21-0+deb11u1_amd64.deb ...
+Unpacking mariadb-client-10.5 (1:10.5.21-0+deb11u1) ...
+Selecting previously unselected package mariadb-client.
+Preparing to unpack .../6-mariadb-client_1%3a10.5.21-0+deb11u1_all.deb ...
+Unpacking mariadb-client (1:10.5.21-0+deb11u1) ...
+Setting up libconfig-inifiles-perl (3.000003-1) ...
+Setting up mysql-common (5.8+1.0.7) ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Setting up mariadb-common (1:10.5.21-0+deb11u1) ...
+update-alternatives: using /etc/mysql/mariadb.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Setting up libmariadb3:amd64 (1:10.5.21-0+deb11u1) ...
+Setting up mariadb-client-core-10.5 (1:10.5.21-0+deb11u1) ...
+Setting up mariadb-client-10.5 (1:10.5.21-0+deb11u1) ...
+Setting up mariadb-client (1:10.5.21-0+deb11u1) ...
+Processing triggers for libc-bin (2.31-13+deb11u7) ...
+Log ended: 2024-02-10  16:45:17
+
+Log started: 2024-02-10  17:25:04
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43008 files and directories currently installed.)
+Removing docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+Removing containerd.io (1.6.28-1) ...
+Removing docker-ce-cli (5:25.0.3-1~debian.11~bullseye) ...
+Removing docker-compose-plugin (2.24.5-1~debian.11~bullseye) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42786 files and directories currently installed.)
+Purging configuration files for docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+dpkg: warning: while removing docker-ce, directory '/etc/docker' not empty so not removed
+Purging configuration files for containerd.io (1.6.28-1) ...
+Log ended: 2024-02-10  17:25:12
+
+Log started: 2024-02-10  17:25:23
+Selecting previously unselected package containerd.io.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42783 files and directories currently installed.)
+Preparing to unpack .../containerd.io_1.6.28-1_amd64.deb ...
+Unpacking containerd.io (1.6.28-1) ...
+Selecting previously unselected package docker-ce-cli.
+Preparing to unpack .../docker-ce-cli_5%3a25.0.3-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-ce-cli (5:25.0.3-1~debian.11~bullseye) ...
+Selecting previously unselected package docker-ce.
+Preparing to unpack .../docker-ce_5%3a25.0.3-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+Setting up containerd.io (1.6.28-1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service -> /lib/systemd/system/containerd.service.
+Setting up docker-ce-cli (5:25.0.3-1~debian.11~bullseye) ...
+Setting up docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service -> /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket -> /lib/systemd/system/docker.socket.
+Log ended: 2024-02-10  17:25:32
+
+Log started: 2024-02-10  17:25:37
+Selecting previously unselected package docker-compose-plugin.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43007 files and directories currently installed.)
+Preparing to unpack .../docker-compose-plugin_2.24.5-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-compose-plugin (2.24.5-1~debian.11~bullseye) ...
+Setting up docker-compose-plugin (2.24.5-1~debian.11~bullseye) ...
+Log ended: 2024-02-10  17:25:38
+
+Log started: 2024-02-10  17:47:40
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43008 files and directories currently installed.)
+Removing docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+Removing containerd.io (1.6.28-1) ...
+Removing docker-ce-cli (5:25.0.3-1~debian.11~bullseye) ...
+Removing docker-compose-plugin (2.24.5-1~debian.11~bullseye) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42786 files and directories currently installed.)
+Purging configuration files for docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+dpkg: warning: while removing docker-ce, directory '/etc/docker' not empty so not removed
+Purging configuration files for containerd.io (1.6.28-1) ...
+Log ended: 2024-02-10  17:47:43
+
+Log started: 2024-02-10  17:47:49
+Selecting previously unselected package containerd.io.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42783 files and directories currently installed.)
+Preparing to unpack .../containerd.io_1.6.28-1_amd64.deb ...
+Unpacking containerd.io (1.6.28-1) ...
+Selecting previously unselected package docker-ce-cli.
+Preparing to unpack .../docker-ce-cli_5%3a25.0.3-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-ce-cli (5:25.0.3-1~debian.11~bullseye) ...
+Selecting previously unselected package docker-ce.
+Preparing to unpack .../docker-ce_5%3a25.0.3-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+Setting up containerd.io (1.6.28-1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service -> /lib/systemd/system/containerd.service.
+Setting up docker-ce-cli (5:25.0.3-1~debian.11~bullseye) ...
+Setting up docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service -> /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket -> /lib/systemd/system/docker.socket.
+Log ended: 2024-02-10  17:47:57
+
+Log started: 2024-02-10  17:48:01
+Selecting previously unselected package docker-compose-plugin.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43007 files and directories currently installed.)
+Preparing to unpack .../docker-compose-plugin_2.24.5-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-compose-plugin (2.24.5-1~debian.11~bullseye) ...
+Setting up docker-compose-plugin (2.24.5-1~debian.11~bullseye) ...
+Log ended: 2024-02-10  17:48:02
+
+Log started: 2024-02-17  16:11:04
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43010 files and directories currently installed.)
+Preparing to unpack .../base-files_11.1+deb11u9_amd64.deb ...
+Unpacking base-files (11.1+deb11u9) over (11.1+deb11u8) ...
+Setting up base-files (11.1+deb11u9) ...
+Installing new version of config file /etc/debian_version ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43010 files and directories currently installed.)
+Preparing to unpack .../libperl5.32_5.32.1-4+deb11u3_amd64.deb ...
+Unpacking libperl5.32:amd64 (5.32.1-4+deb11u3) over (5.32.1-4+deb11u2) ...
+Preparing to unpack .../perl_5.32.1-4+deb11u3_amd64.deb ...
+Unpacking perl (5.32.1-4+deb11u3) over (5.32.1-4+deb11u2) ...
+Preparing to unpack .../perl-base_5.32.1-4+deb11u3_amd64.deb ...
+Unpacking perl-base (5.32.1-4+deb11u3) over (5.32.1-4+deb11u2) ...
+Setting up perl-base (5.32.1-4+deb11u3) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43010 files and directories currently installed.)
+Preparing to unpack .../perl-modules-5.32_5.32.1-4+deb11u3_all.deb ...
+Unpacking perl-modules-5.32 (5.32.1-4+deb11u3) over (5.32.1-4+deb11u2) ...
+Preparing to unpack .../libc6_2.31-13+deb11u8_amd64.deb ...
+Unpacking libc6:amd64 (2.31-13+deb11u8) over (2.31-13+deb11u7) ...
+Setting up libc6:amd64 (2.31-13+deb11u8) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43010 files and directories currently installed.)
+Preparing to unpack .../tar_1.34+dfsg-1+deb11u1_amd64.deb ...
+Unpacking tar (1.34+dfsg-1+deb11u1) over (1.34+dfsg-1) ...
+Setting up tar (1.34+dfsg-1+deb11u1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43010 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.31-13+deb11u8_amd64.deb ...
+Unpacking libc-bin (2.31-13+deb11u8) over (2.31-13+deb11u7) ...
+Setting up libc-bin (2.31-13+deb11u8) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43010 files and directories currently installed.)
+Preparing to unpack .../nftables_0.9.8-3.1+deb11u2_amd64.deb ...
+Unpacking nftables (0.9.8-3.1+deb11u2) over (0.9.8-3.1+deb11u1) ...
+Preparing to unpack .../libnftables1_0.9.8-3.1+deb11u2_amd64.deb ...
+Unpacking libnftables1:amd64 (0.9.8-3.1+deb11u2) over (0.9.8-3.1+deb11u1) ...
+Preparing to unpack .../libgnutls30_3.7.1-5+deb11u4_amd64.deb ...
+Unpacking libgnutls30:amd64 (3.7.1-5+deb11u4) over (3.7.1-5+deb11u3) ...
+Setting up libgnutls30:amd64 (3.7.1-5+deb11u4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43010 files and directories currently installed.)
+Preparing to unpack .../00-tzdata_2024a-0+deb11u1_all.deb ...
+Unpacking tzdata (2024a-0+deb11u1) over (2021a-1+deb11u11) ...
+Preparing to unpack .../01-libc-l10n_2.31-13+deb11u8_all.deb ...
+Unpacking libc-l10n (2.31-13+deb11u8) over (2.31-13+deb11u7) ...
+Preparing to unpack .../02-locales_2.31-13+deb11u8_all.deb ...
+Unpacking locales (2.31-13+deb11u8) over (2.31-13+deb11u7) ...
+Preparing to unpack .../03-libglib2.0-0_2.66.8-1+deb11u1_amd64.deb ...
+Unpacking libglib2.0-0:amd64 (2.66.8-1+deb11u1) over (2.66.8-1) ...
+Preparing to unpack .../04-conmon_2.0.25+ds1-1.1+deb11u1_amd64.deb ...
+Unpacking conmon (2.0.25+ds1-1.1+deb11u1) over (2.0.25+ds1-1.1) ...
+Preparing to unpack .../05-distro-info-data_0.51+deb11u5_all.deb ...
+Unpacking distro-info-data (0.51+deb11u5) over (0.51+deb11u4) ...
+Preparing to unpack .../06-mariadb-common_1%3a10.5.23-0+deb11u1_all.deb ...
+Unpacking mariadb-common (1:10.5.23-0+deb11u1) over (1:10.5.21-0+deb11u1) ...
+Preparing to unpack .../07-libmariadb3_1%3a10.5.23-0+deb11u1_amd64.deb ...
+Unpacking libmariadb3:amd64 (1:10.5.23-0+deb11u1) over (1:10.5.21-0+deb11u1) ...
+Preparing to unpack .../08-libzmq5_4.3.4-1+deb11u1_amd64.deb ...
+Unpacking libzmq5:amd64 (4.3.4-1+deb11u1) over (4.3.4-1) ...
+Preparing to unpack .../09-mariadb-client-core-10.5_1%3a10.5.23-0+deb11u1_amd64.deb ...
+Unpacking mariadb-client-core-10.5 (1:10.5.23-0+deb11u1) over (1:10.5.21-0+deb11u1) ...
+Preparing to unpack .../10-mariadb-client-10.5_1%3a10.5.23-0+deb11u1_amd64.deb ...
+Unpacking mariadb-client-10.5 (1:10.5.23-0+deb11u1) over (1:10.5.21-0+deb11u1) ...
+Preparing to unpack .../11-mariadb-client_1%3a10.5.23-0+deb11u1_all.deb ...
+Unpacking mariadb-client (1:10.5.23-0+deb11u1) over (1:10.5.21-0+deb11u1) ...
+Preparing to unpack .../12-podman_3.0.1+dfsg1-3+deb11u5_amd64.deb ...
+Unpacking podman (3.0.1+dfsg1-3+deb11u5) over (3.0.1+dfsg1-3+deb11u4) ...
+Preparing to unpack .../13-postfix_3.5.24-0+deb11u1_amd64.deb ...
+Unpacking postfix (3.5.24-0+deb11u1) over (3.5.23-0+deb11u1) ...
+Setting up libc-l10n (2.31-13+deb11u8) ...
+Setting up libnftables1:amd64 (0.9.8-3.1+deb11u2) ...
+Setting up nftables (0.9.8-3.1+deb11u2) ...
+Setting up libzmq5:amd64 (4.3.4-1+deb11u1) ...
+Setting up libglib2.0-0:amd64 (2.66.8-1+deb11u1) ...
+No schema files found: doing nothing.
+Setting up distro-info-data (0.51+deb11u5) ...
+Setting up perl-modules-5.32 (5.32.1-4+deb11u3) ...
+Setting up locales (2.31-13+deb11u8) ...
+Generating locales (this might take a while)...
+  en_GB.UTF-8... done
+Generation complete.
+Setting up tzdata (2024a-0+deb11u1) ...
+
+Current default time zone: 'Europe/London'
+Local time is now:      Sat Feb 17 16:11:15 GMT 2024.
+Universal Time is now:  Sat Feb 17 16:11:15 UTC 2024.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up mariadb-common (1:10.5.23-0+deb11u1) ...
+Setting up conmon (2.0.25+ds1-1.1+deb11u1) ...
+Setting up libmariadb3:amd64 (1:10.5.23-0+deb11u1) ...
+Setting up libperl5.32:amd64 (5.32.1-4+deb11u3) ...
+Setting up postfix (3.5.24-0+deb11u1) ...
+
+Postfix (main.cf) configuration was untouched.  If you need to make changes, 
+edit /etc/postfix/main.cf (and others) as needed.  To view Postfix 
+configuration values, see postconf(1).
+
+After modifying main.cf, be sure to run 'systemctl reload postfix'.
+
+postfix.service is a disabled or a static unit not running, not starting it.
+Setting up podman (3.0.1+dfsg1-3+deb11u5) ...
+podman.service is a disabled or a static unit not running, not starting it.
+Setting up perl (5.32.1-4+deb11u3) ...
+Setting up mariadb-client-core-10.5 (1:10.5.23-0+deb11u1) ...
+Setting up mariadb-client-10.5 (1:10.5.23-0+deb11u1) ...
+Setting up mariadb-client (1:10.5.23-0+deb11u1) ...
+Processing triggers for rsyslog (8.2102.0-2+deb11u1) ...
+Processing triggers for mailcap (3.69) ...
+Processing triggers for libc-bin (2.31-13+deb11u8) ...
+Log ended: 2024-02-17  16:11:18
+
+Log started: 2024-02-24  17:39:19
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43018 files and directories currently installed.)
+Preparing to unpack .../bind9-libs_1%3a9.16.48-1_amd64.deb ...
+Unpacking bind9-libs:amd64 (1:9.16.48-1) over (1:9.16.44-1~deb11u1) ...
+Preparing to unpack .../bind9-host_1%3a9.16.48-1_amd64.deb ...
+Unpacking bind9-host (1:9.16.48-1) over (1:9.16.44-1~deb11u1) ...
+Preparing to unpack .../openmediavault_6.9.14-1_all.deb ...
+Unpacking openmediavault (6.9.14-1) over (6.9.13-1) ...
+Setting up bind9-libs:amd64 (1:9.16.48-1) ...
+Setting up openmediavault (6.9.14-1) ...
+Creating configuration database ...
+Migrating configuration database ...
+Setting up Salt environment ...
+Processing system modifications ...
+Setting up bind9-host (1:9.16.48-1) ...
+Processing triggers for rsyslog (8.2102.0-2+deb11u1) ...
+Processing triggers for libc-bin (2.31-13+deb11u8) ...
+Processing triggers for openmediavault (6.9.14-1) ...
+Restarting engine daemon ...
+Updating workbench configuration files ...
+Log ended: 2024-02-24  17:39:41
+
+Log started: 2024-02-24  18:34:06
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43016 files and directories currently installed.)
+Removing docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+Removing containerd.io (1.6.28-1) ...
+Removing docker-ce-cli (5:25.0.3-1~debian.11~bullseye) ...
+Removing docker-compose-plugin (2.24.5-1~debian.11~bullseye) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42794 files and directories currently installed.)
+Purging configuration files for docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+dpkg: warning: while removing docker-ce, directory '/etc/docker' not empty so not removed
+Purging configuration files for containerd.io (1.6.28-1) ...
+Log ended: 2024-02-24  18:34:09
+
+Log started: 2024-02-24  18:34:21
+Selecting previously unselected package containerd.io.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42791 files and directories currently installed.)
+Preparing to unpack .../containerd.io_1.6.28-1_amd64.deb ...
+Unpacking containerd.io (1.6.28-1) ...
+Selecting previously unselected package docker-ce-cli.
+Preparing to unpack .../docker-ce-cli_5%3a25.0.3-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-ce-cli (5:25.0.3-1~debian.11~bullseye) ...
+Selecting previously unselected package docker-ce.
+Preparing to unpack .../docker-ce_5%3a25.0.3-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+Setting up containerd.io (1.6.28-1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service -> /lib/systemd/system/containerd.service.
+Setting up docker-ce-cli (5:25.0.3-1~debian.11~bullseye) ...
+Setting up docker-ce (5:25.0.3-1~debian.11~bullseye) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service -> /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket -> /lib/systemd/system/docker.socket.
+Log ended: 2024-02-24  18:34:29
+
+Log started: 2024-02-24  18:34:34
+Selecting previously unselected package docker-compose-plugin.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 43015 files and directories currently installed.)
+Preparing to unpack .../docker-compose-plugin_2.24.5-1~debian.11~bullseye_amd64.deb ...
+Unpacking docker-compose-plugin (2.24.5-1~debian.11~bullseye) ...
+Setting up docker-compose-plugin (2.24.5-1~debian.11~bullseye) ...
+Log ended: 2024-02-24  18:34:35

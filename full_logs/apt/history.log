@@ -1,0 +1,130 @@
+
+Start-Date: 2024-02-01  19:10:58
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-broken --fix-missing --auto-remove --allow-unauthenticated --show-upgraded --option DPkg::Options::=--force-confold dist-upgrade
+Upgrade: firmware-ath9k-htc:amd64 (1.4.0-106-gc583009+dfsg1-1, 1.4.0-108-gd856466+dfsg1-1.3~bpo11+1)
+End-Date: 2024-02-01  19:10:58
+
+Start-Date: 2024-02-01  19:29:47
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-missing --allow-unauthenticated --reinstall install openmediavault-filebrowser
+Install: openmediavault-filebrowser:amd64 (6.0.8-1)
+End-Date: 2024-02-01  19:29:55
+
+Start-Date: 2024-02-02  15:50:23
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-broken --fix-missing --auto-remove --allow-unauthenticated --show-upgraded --option DPkg::Options::=--force-confold dist-upgrade
+Upgrade: openmediavault:amd64 (6.9.12-2, 6.9.12-3)
+End-Date: 2024-02-02  15:50:44
+
+Start-Date: 2024-02-02  16:24:39
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-missing --allow-unauthenticated --reinstall install openmediavault-clamav
+Install: clamav-daemon:amd64 (0.103.10+dfsg-0+deb11u1, automatic), libltdl7:amd64 (2.4.6-15, automatic), clamav-base:amd64 (0.103.10+dfsg-0+deb11u1, automatic), libclamav9:amd64 (0.103.10+dfsg-0+deb11u1, automatic), openmediavault-clamav:amd64 (6.0.7-2), libmspack0:amd64 (0.10.1-2, automatic), clamav-freshclam:amd64 (0.103.10+dfsg-0+deb11u1, automatic), libtfm1:amd64 (0.13-4, automatic), clamdscan:amd64 (0.103.10+dfsg-0+deb11u1, automatic)
+End-Date: 2024-02-02  16:24:45
+
+Start-Date: 2024-02-02  16:24:59
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-missing --allow-unauthenticated --reinstall install openmediavault-compose
+Install: openmediavault-compose:amd64 (6.11.3), python3-lib2to3:amd64 (3.9.2-1, automatic), python3-websocket:amd64 (0.57.0-1, automatic), python3-unidecode:amd64 (1.2.0-1, automatic), python3-docker:amd64 (4.1.0-1.2, automatic), openmediavault-sharerootfs:amd64 (6.0.3-1, automatic), python3-distutils:amd64 (3.9.2-1, automatic), python3-pretty-yaml:amd64 (20.4.0-1, automatic)
+End-Date: 2024-02-02  16:25:06
+
+Start-Date: 2024-02-02  16:25:16
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-missing --allow-unauthenticated --reinstall install openmediavault-compose
+Reinstall: openmediavault-compose:amd64 (6.11.3)
+End-Date: 2024-02-02  16:25:18
+
+Start-Date: 2024-02-02  16:28:07
+Commandline: apt-get --yes --auto-remove --purge remove openmediavault-compose
+Purge: openmediavault-compose:amd64 (6.11.3), python3-lib2to3:amd64 (3.9.2-1), python3-websocket:amd64 (0.57.0-1), python3-unidecode:amd64 (1.2.0-1), python3-docker:amd64 (4.1.0-1.2), openmediavault-sharerootfs:amd64 (6.0.3-1), python3-distutils:amd64 (3.9.2-1), python3-pretty-yaml:amd64 (20.4.0-1)
+End-Date: 2024-02-02  16:28:11
+
+Start-Date: 2024-02-02  16:31:14
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-missing --allow-unauthenticated --reinstall install openmediavault-compose
+Install: openmediavault-compose:amd64 (6.11.3), python3-lib2to3:amd64 (3.9.2-1, automatic), python3-websocket:amd64 (0.57.0-1, automatic), python3-unidecode:amd64 (1.2.0-1, automatic), python3-docker:amd64 (4.1.0-1.2, automatic), openmediavault-sharerootfs:amd64 (6.0.3-1, automatic), python3-distutils:amd64 (3.9.2-1, automatic), python3-pretty-yaml:amd64 (20.4.0-1, automatic)
+End-Date: 2024-02-02  16:31:20
+
+Start-Date: 2024-02-02  16:33:16
+Commandline: /bin/apt-get -q -y -o DPkg::Options::=--force-confold -o DPkg::Options::=--force-confdef install docker-ce
+Install: containerd.io:amd64 (1.6.28-1, automatic), docker-ce-cli:amd64 (5:25.0.2-1~debian.11~bullseye, automatic), docker-ce:amd64 (5:25.0.2-1~debian.11~bullseye)
+End-Date: 2024-02-02  16:33:24
+
+Start-Date: 2024-02-02  16:33:31
+Commandline: /bin/apt-get -q -y -o DPkg::Options::=--force-confold -o DPkg::Options::=--force-confdef install docker-compose-plugin docker-buildx-plugin
+Install: docker-compose-plugin:amd64 (2.24.5-1~debian.11~bullseye), docker-buildx-plugin:amd64 (0.12.1-1~debian.11~bullseye)
+End-Date: 2024-02-02  16:33:34
+
+Start-Date: 2024-02-02  16:37:09
+Commandline: apt-get --yes --auto-remove --purge remove openmediavault-compose
+Purge: openmediavault-compose:amd64 (6.11.3), python3-lib2to3:amd64 (3.9.2-1), python3-websocket:amd64 (0.57.0-1), python3-unidecode:amd64 (1.2.0-1), python3-docker:amd64 (4.1.0-1.2), openmediavault-sharerootfs:amd64 (6.0.3-1), python3-distutils:amd64 (3.9.2-1), python3-pretty-yaml:amd64 (20.4.0-1)
+End-Date: 2024-02-02  16:37:13
+
+Start-Date: 2024-02-03  09:20:12
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-missing --allow-unauthenticated --reinstall install openmediavault-compose
+Install: openmediavault-compose:amd64 (6.11.3), python3-lib2to3:amd64 (3.9.2-1, automatic), python3-websocket:amd64 (0.57.0-1, automatic), python3-unidecode:amd64 (1.2.0-1, automatic), python3-docker:amd64 (4.1.0-1.2, automatic), openmediavault-sharerootfs:amd64 (6.0.3-1, automatic), python3-distutils:amd64 (3.9.2-1, automatic), python3-pretty-yaml:amd64 (20.4.0-1, automatic)
+End-Date: 2024-02-03  09:20:18
+
+Start-Date: 2024-02-04  10:56:15
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-broken --fix-missing --auto-remove --allow-unauthenticated --show-upgraded --option DPkg::Options::=--force-confold dist-upgrade
+Upgrade: openmediavault:amd64 (6.9.12-3, 6.9.13-1)
+End-Date: 2024-02-04  10:56:37
+
+Start-Date: 2024-02-10  10:08:18
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-broken --fix-missing --auto-remove --allow-unauthenticated --show-upgraded --option DPkg::Options::=--force-confold dist-upgrade
+Upgrade: docker-ce-cli:amd64 (5:25.0.2-1~debian.11~bullseye, 5:25.0.3-1~debian.11~bullseye), docker-ce:amd64 (5:25.0.2-1~debian.11~bullseye, 5:25.0.3-1~debian.11~bullseye)
+End-Date: 2024-02-10  10:08:28
+
+Start-Date: 2024-02-10  16:45:16
+Commandline: apt-get install mariadb-client
+Install: mysql-common:amd64 (5.8+1.0.7, automatic), mariadb-client-10.5:amd64 (1:10.5.21-0+deb11u1, automatic), libconfig-inifiles-perl:amd64 (3.000003-1, automatic), mariadb-common:amd64 (1:10.5.21-0+deb11u1, automatic), libmariadb3:amd64 (1:10.5.21-0+deb11u1, automatic), mariadb-client:amd64 (1:10.5.21-0+deb11u1), mariadb-client-core-10.5:amd64 (1:10.5.21-0+deb11u1, automatic)
+End-Date: 2024-02-10  16:45:17
+
+Start-Date: 2024-02-10  17:25:04
+Commandline: apt-get --yes --autoremove purge docker-ce docker.io containerd.io containerd docker-ce-cli docker-compose-plugin docker-compose
+Purge: containerd.io:amd64 (1.6.28-1), docker-compose-plugin:amd64 (2.24.5-1~debian.11~bullseye), docker-ce-cli:amd64 (5:25.0.3-1~debian.11~bullseye), docker-ce:amd64 (5:25.0.3-1~debian.11~bullseye)
+End-Date: 2024-02-10  17:25:12
+
+Start-Date: 2024-02-10  17:25:23
+Commandline: /bin/apt-get -q -y -o DPkg::Options::=--force-confold -o DPkg::Options::=--force-confdef install docker-ce
+Install: containerd.io:amd64 (1.6.28-1, automatic), docker-ce-cli:amd64 (5:25.0.3-1~debian.11~bullseye, automatic), docker-ce:amd64 (5:25.0.3-1~debian.11~bullseye)
+End-Date: 2024-02-10  17:25:32
+
+Start-Date: 2024-02-10  17:25:37
+Commandline: /bin/apt-get -q -y -o DPkg::Options::=--force-confold -o DPkg::Options::=--force-confdef install docker-compose-plugin
+Install: docker-compose-plugin:amd64 (2.24.5-1~debian.11~bullseye)
+End-Date: 2024-02-10  17:25:38
+
+Start-Date: 2024-02-10  17:47:40
+Commandline: apt-get --yes --autoremove purge docker-ce docker.io containerd.io containerd docker-ce-cli docker-compose-plugin docker-compose
+Purge: containerd.io:amd64 (1.6.28-1), docker-compose-plugin:amd64 (2.24.5-1~debian.11~bullseye), docker-ce-cli:amd64 (5:25.0.3-1~debian.11~bullseye), docker-ce:amd64 (5:25.0.3-1~debian.11~bullseye)
+End-Date: 2024-02-10  17:47:43
+
+Start-Date: 2024-02-10  17:47:49
+Commandline: /bin/apt-get -q -y -o DPkg::Options::=--force-confold -o DPkg::Options::=--force-confdef install docker-ce
+Install: containerd.io:amd64 (1.6.28-1, automatic), docker-ce-cli:amd64 (5:25.0.3-1~debian.11~bullseye, automatic), docker-ce:amd64 (5:25.0.3-1~debian.11~bullseye)
+End-Date: 2024-02-10  17:47:57
+
+Start-Date: 2024-02-10  17:48:01
+Commandline: /bin/apt-get -q -y -o DPkg::Options::=--force-confold -o DPkg::Options::=--force-confdef install docker-compose-plugin
+Install: docker-compose-plugin:amd64 (2.24.5-1~debian.11~bullseye)
+End-Date: 2024-02-10  17:48:02
+
+Start-Date: 2024-02-17  16:11:04
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-broken --fix-missing --auto-remove --allow-unauthenticated --show-upgraded --option DPkg::Options::=--force-confold dist-upgrade
+Upgrade: libperl5.32:amd64 (5.32.1-4+deb11u2, 5.32.1-4+deb11u3), libnftables1:amd64 (0.9.8-3.1+deb11u1, 0.9.8-3.1+deb11u2), perl:amd64 (5.32.1-4+deb11u2, 5.32.1-4+deb11u3), tzdata:amd64 (2021a-1+deb11u11, 2024a-0+deb11u1), tar:amd64 (1.34+dfsg-1, 1.34+dfsg-1+deb11u1), libc6:amd64 (2.31-13+deb11u7, 2.31-13+deb11u8), locales:amd64 (2.31-13+deb11u7, 2.31-13+deb11u8), base-files:amd64 (11.1+deb11u8, 11.1+deb11u9), conmon:amd64 (2.0.25+ds1-1.1, 2.0.25+ds1-1.1+deb11u1), mariadb-client-10.5:amd64 (1:10.5.21-0+deb11u1, 1:10.5.23-0+deb11u1), podman:amd64 (3.0.1+dfsg1-3+deb11u4, 3.0.1+dfsg1-3+deb11u5), distro-info-data:amd64 (0.51+deb11u4, 0.51+deb11u5), mariadb-common:amd64 (1:10.5.21-0+deb11u1, 1:10.5.23-0+deb11u1), libglib2.0-0:amd64 (2.66.8-1, 2.66.8-1+deb11u1), perl-base:amd64 (5.32.1-4+deb11u2, 5.32.1-4+deb11u3), libc-l10n:amd64 (2.31-13+deb11u7, 2.31-13+deb11u8), libzmq5:amd64 (4.3.4-1, 4.3.4-1+deb11u1), libmariadb3:amd64 (1:10.5.21-0+deb11u1, 1:10.5.23-0+deb11u1), libc-bin:amd64 (2.31-13+deb11u7, 2.31-13+deb11u8), mariadb-client:amd64 (1:10.5.21-0+deb11u1, 1:10.5.23-0+deb11u1), libgnutls30:amd64 (3.7.1-5+deb11u3, 3.7.1-5+deb11u4), perl-modules-5.32:amd64 (5.32.1-4+deb11u2, 5.32.1-4+deb11u3), mariadb-client-core-10.5:amd64 (1:10.5.21-0+deb11u1, 1:10.5.23-0+deb11u1), postfix:amd64 (3.5.23-0+deb11u1, 3.5.24-0+deb11u1), nftables:amd64 (0.9.8-3.1+deb11u1, 0.9.8-3.1+deb11u2)
+End-Date: 2024-02-17  16:11:18
+
+Start-Date: 2024-02-24  17:39:19
+Commandline: apt-get --yes --allow-downgrades --allow-change-held-packages --fix-broken --fix-missing --auto-remove --allow-unauthenticated --show-upgraded --option DPkg::Options::=--force-confold dist-upgrade
+Upgrade: bind9-host:amd64 (1:9.16.44-1~deb11u1, 1:9.16.48-1), openmediavault:amd64 (6.9.13-1, 6.9.14-1), bind9-libs:amd64 (1:9.16.44-1~deb11u1, 1:9.16.48-1)
+End-Date: 2024-02-24  17:39:41
+
+Start-Date: 2024-02-24  18:34:06
+Commandline: apt-get --yes --autoremove purge docker-ce docker.io containerd.io containerd docker-ce-cli docker-compose-plugin docker-compose
+Purge: containerd.io:amd64 (1.6.28-1), docker-compose-plugin:amd64 (2.24.5-1~debian.11~bullseye), docker-ce-cli:amd64 (5:25.0.3-1~debian.11~bullseye), docker-ce:amd64 (5:25.0.3-1~debian.11~bullseye)
+End-Date: 2024-02-24  18:34:09
+
+Start-Date: 2024-02-24  18:34:21
+Commandline: /bin/apt-get -q -y -o DPkg::Options::=--force-confold -o DPkg::Options::=--force-confdef install docker-ce
+Install: containerd.io:amd64 (1.6.28-1, automatic), docker-ce-cli:amd64 (5:25.0.3-1~debian.11~bullseye, automatic), docker-ce:amd64 (5:25.0.3-1~debian.11~bullseye)
+End-Date: 2024-02-24  18:34:29
+
+Start-Date: 2024-02-24  18:34:34
+Commandline: /bin/apt-get -q -y -o DPkg::Options::=--force-confold -o DPkg::Options::=--force-confdef install docker-compose-plugin
+Install: docker-compose-plugin:amd64 (2.24.5-1~debian.11~bullseye)
+End-Date: 2024-02-24  18:34:35

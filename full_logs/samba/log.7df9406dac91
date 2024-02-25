@@ -1,0 +1,32 @@
+[2024/02/25 08:48:17.992367,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:48:18.012055,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:48:21.884931,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:48:33.950778,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:48:40.958607,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:48:42.336792,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:49:41.016376,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:49:41.794911,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:49:50.519608,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:49:58.860836,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:59:51.198322,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:59:56.584400,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 08:59:59.843335,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 09:00:01.712584,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 09:00:02.986887,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
+[2024/02/25 09:00:13.664775,  0] ../../source3/param/loadparm.c:3428(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/users failed. Permission denied
