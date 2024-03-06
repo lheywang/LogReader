@@ -2,46 +2,42 @@ import os
 import shutil
 import gzip
 import time
+import tomllib
+from multiprocessing import Queue, Process
 
-#
-# Copying files to a temp directory
-#
-start_copy = time.time()
-src = "full_logs"
-dst = "temp"
+from reader import reader
+from files import FilesCopy, FilesExtraction
 
-try :
-    shutil.rmtree(dst)
-except :
-    print("Cannot remove the folder")
 
-files = os.listdir(src)
-shutil.copytree(src, dst)
-print("Files copied")
-end_copy = time.time()
+if __name__ == "__main__":
+    # Copying and extracting files
+    FilesCopy("full_logs", "temp")
+    FilesExtraction("C:\\Dev\\logs\\reader\\LogReader\\temp")
 
-#
-# Extracting .gz files to their ascii versions
-#
-for path, subdirs, files in os.walk("C:\\Dev\\logs\\reader\\LogReader\\temp"):
-    for name in files:
-        file = os.path.join(path, name)
-        if file.endswith(".gz"):
-            with gzip.open(file) as fi:
-                fo = open(file[:-3]+ ".txt", "wb")
-                fo.write(fi.read())
-                fo.close()
-            os.remove(file)
+    # Openning the TOML File
+    with open("keywords.toml", "rb") as t:
+        words = tomllib.load(t)
 
-end_gz = time.time()
-print("Files extracted")
+    # Iterating trough the keywords and start an approppriate word
+    processes = []
+    for keywords, attributes in words.items():
+        print(keywords, attributes)
+        processes.append(
+            Process(
+                target=reader,
+                args=(
+                    "C:\\Dev\\logs\\reader\\LogReader\\temp",
+                    keywords,
+                ),
+            )
+        )
 
-#
-# Printing execution time
-# 
-print(end_copy - start_copy)
-print(end_gz - end_copy)
+    for process in processes:
+        process.start()
 
-#
-# Launching readers 
-#
+"""
+
+
+
+reader("C:\\Dev\\logs\\reader\\LogReader\\temp", "dionysos")
+"""
