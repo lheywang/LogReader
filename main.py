@@ -1,12 +1,9 @@
-import os
-import shutil
-import gzip
-import time
 import tomllib
 from multiprocessing import Queue, Process
 
 from reader import reader
 from files import FilesCopy, FilesExtraction
+from classes import LogEntry
 
 
 if __name__ == "__main__":
@@ -34,6 +31,11 @@ if __name__ == "__main__":
 
     for process in processes:
         process.start()
+
+    for process in processes:
+        process.join()
+
+    print("END !")
 
 """
 
