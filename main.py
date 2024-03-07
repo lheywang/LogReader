@@ -1,7 +1,9 @@
 import tomllib
-from multiprocessing import Queue, Process
+from multiprocessing import Pool, Queue, Process
+import time
 
 from reader import reader
+from sorter import sorter
 from files import FilesCopy, FilesExtraction
 from classes import LogEntry
 
@@ -13,27 +15,21 @@ if __name__ == "__main__":
 
     # Openning the TOML File
     with open("keywords.toml", "rb") as t:
-        words = tomllib.load(t)
+        config = tomllib.load(t)
 
     # Iterating trough the keywords and start an approppriate word
-    processes = []
-    for keywords, attributes in words.items():
-        print(keywords, attributes)
-        processes.append(
-            Process(
-                target=reader,
-                args=(
-                    "C:\\Dev\\logs\\reader\\LogReader\\temp",
-                    keywords,
-                ),
-            )
-        )
+    args = []
+    for keywords in config["Keywords"]:
+        args.append(("C:\\Dev\\logs\\reader\\LogReader\\temp", keywords))
 
-    for process in processes:
-        process.start()
+    pool = Pool()
+    results = pool.starmap(reader, args)
 
-    for process in processes:
-        process.join()
+    """
+    TO DO : Start a worker pool task to sort all of the outputed logs
+    Then, PDF Creation.
+    """
+    print(sorter(results[20], config["Output"]["Output"]))
 
     print("END !")
 

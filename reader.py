@@ -1,5 +1,4 @@
 import os
-from socket import MsgFlag
 from classes import LogEntry
 
 
@@ -32,9 +31,7 @@ def reader(logpath: str, keyword: str):
                         if to_add == 1:
                             log = LogEntry(date, src, message)
                             logs.append(log)
-
                     except:
+                        # If fail, do nothing and jump on the next
                         pass
-    for log in logs:
-        print(log)
-    return
+    return logs
