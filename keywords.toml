@@ -22,7 +22,9 @@ Keywords = ["systemmd",
             "openmediavault-check_ssl_cert_expiry",
             "openmediavault-pending_config_change",
             "smartd",
-            "omv-engined"
+            "omv-engined",
+            "641#641",
+            "5563#5563"
         ]
 
 # Define here a word if present in the message will expose the log in the associated level.
