@@ -32,3 +32,11 @@ Tri par type :
 - user.log.1 / 2 / 3 / 4 ==> Commandes users
 - deamon.log
 - syslog
+
+Warnings : 
+- warning
+
+Errors : 
+- outdated
+- error
+- deprecated

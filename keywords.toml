@@ -1,35 +1,43 @@
-# This file describe Keywords that are required to seek into the log, and what to do once the log was extracted
+# This file configure the auto sorter of logs
 
-[systemmd]
+# Define in the following list the process keywords which you want to be exposed.
+# Anu word here will be seek trough EVERY file on a multiprocessing pool, thus all cores of the CPU will be used (and probably multiples words per core...)
+Keywords = ["systemmd", 
+            "CRON", 
+            "anacron", 
+            "cron-apt", 
+            "postfix", 
+            "omv", 
+            "kernel", 
+            "php", 
+            "smbd", 
+            "monit", 
+            "avahi", 
+            "clamd", 
+            "freshclam", 
+            "rsyslogd", 
+            "openmediavault", 
+            "mkworkbench", 
+            "sfsnapadm",
+            "openmediavault-check_ssl_cert_expiry",
+            "openmediavault-pending_config_change",
+            "smartd",
+            "omv-engined",
+            "641#641",
+            "5563#5563"
+        ]
 
-[CRON]
+# Define here a word if present in the message will expose the log in the associated level.
+# If a log has none of this word, il will be exposed at the bottom of the report.
+[Output]
+    Output.Level0 = ["outdated"]
+    Output.Level1 = ["deprecated"]
+    Output.Level2 = []
+    Output.Level3 = ["error"]
+    Output.Level4 = []
+    Output.Level5 = ["warning"]
+    Output.Level6 = []
+    Output.Level7 = []
+    Output.Level8 = []
+    Output.Level9 = []
 
-[anacron]
-
-[cron-apt]
-
-[postfix]
-
-[omv]
-
-[kernel]
-
-[php]
-
-[smbd]
-
-[monit]
-
-[avahi]
-
-[clamd]
-
-[freshclam]
-
-[rsyslogd]
-
-[openmediavault]
-
-[mkworkbench]
-
-[sfsnapadm]

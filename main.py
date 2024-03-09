@@ -1,12 +1,11 @@
-import os
-import shutil
-import gzip
-import time
 import tomllib
-from multiprocessing import Queue, Process
+from multiprocessing import Pool, Queue, Process
+import time
 
 from reader import reader
+from sorter import sorter, ClearLogEntry
 from files import FilesCopy, FilesExtraction
+from classes import LogEntry
 
 
 if __name__ == "__main__":
@@ -14,30 +13,37 @@ if __name__ == "__main__":
     FilesCopy("full_logs", "temp")
     FilesExtraction("C:\\Dev\\logs\\reader\\LogReader\\temp")
 
-    # Openning the TOML File
+    # Openning the TOML File and parsing it
     with open("keywords.toml", "rb") as t:
-        words = tomllib.load(t)
+        config = tomllib.load(t)
 
-    # Iterating trough the keywords and start an approppriate word
-    processes = []
-    for keywords, attributes in words.items():
-        print(keywords, attributes)
-        processes.append(
-            Process(
-                target=reader,
-                args=(
-                    "C:\\Dev\\logs\\reader\\LogReader\\temp",
-                    keywords,
-                ),
-            )
-        )
+    # Creating a pool on all cores available
+    pool = Pool()
 
-    for process in processes:
-        process.start()
+    # Creating an args tab to be passed to te pool. Each worker will seek one (or multiples) word(s)
+    args = []
+    for keywords in config["Keywords"]:
+        args.append(("C:\\Dev\\logs\\reader\\LogReader\\temp", keywords))
 
-"""
+    # Launching the reading process on all cores, with for each one a specific argument set
+    results = pool.starmap(reader, args)
 
+    # Re-using the args tab, with new args;
+    args = []
+    for result in results:
+        args.append((result, config["Output"]["Output"]))
 
+    # Launching the sorting process on all cores, with each one a specific argument set
+    logs = pool.starmap(sorter, args)
 
-reader("C:\\Dev\\logs\\reader\\LogReader\\temp", "dionysos")
-"""
+    # DEBUG OUTPUT
+    for keylog in logs:
+        for level in keylog:
+            for log in level:
+                print(log)
+
+    #
+    # TO DO : Exporter in PDF
+    #
+
+    print("END !")
