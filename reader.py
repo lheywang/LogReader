@@ -17,7 +17,7 @@ def reader(logpath: str, keyword: str):
                         # Extracting the data from the log line
                         buf = sline.split(":")
                         subbuf = buf.pop(2).split(" ")
-                        date = buf.pop(0) + buf.pop(0) + subbuf.pop(0)
+                        date = buf.pop(0) + ":" + buf.pop(0) + ":" + subbuf.pop(0)
                         src = subbuf.pop(1)
                         message = " ".join(buf)
 
