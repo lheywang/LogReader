@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "logreader"
+version = "1.0.0"
+description = "Read log from OMV6 nas following a defined list of keyword (TOML Configurable). Then, sort them (according another list of word) and create a markdown report"
+authors = ["lheywang"]
+license = "NA"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+mdutils = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
