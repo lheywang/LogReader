@@ -24,20 +24,21 @@ Keywords = ["systemmd",
             "smartd",
             "omv-engined",
             "641#641",
-            "5563#5563"
+            "5563#5563",
+            "ssh"
         ]
 
 # Define here a word if present in the message will expose the log in the associated level.
 # If a log has none of this word, il will be exposed at the bottom of the report.
 [Output]
-    Output.Level0 = ["outdated"]
-    Output.Level1 = ["deprecated"]
-    Output.Level2 = []
-    Output.Level3 = ["error"]
-    Output.Level4 = []
-    Output.Level5 = ["warning"]
-    Output.Level6 = []
-    Output.Level7 = []
-    Output.Level8 = []
-    Output.Level9 = []
+Level0 = ["OUTDATED"]
+Level1 = ["deprecated"]
+Level2 = []
+Level3 = ["error", "failed"]
+Level4 = []
+Level5 = ["warning"]
+Level6 = ["unable"]
+Level7 = []
+Level8 = ["connection"]
+Level9 = ["upgrade", "install"]
 

@@ -1,12 +1,11 @@
+from ast import Expr
 import tomllib
-from multiprocessing import Pool, Queue, Process
-import time
+from multiprocessing import Pool
 
 from reader import reader
-from sorter import sorter, ClearLogEntry
+from sorter import sorter
 from files import FilesCopy, FilesExtraction
-from classes import LogEntry
-
+from markdown import Exporter
 
 if __name__ == "__main__":
     # Copying and extracting files
@@ -31,19 +30,11 @@ if __name__ == "__main__":
     # Re-using the args tab, with new args;
     args = []
     for result in results:
-        args.append((result, config["Output"]["Output"]))
+        args.append((result, config["Output"]))
 
     # Launching the sorting process on all cores, with each one a specific argument set
     logs = pool.starmap(sorter, args)
 
-    # DEBUG OUTPUT
-    for keylog in logs:
-        for level in keylog:
-            for log in level:
-                print(log)
-
-    #
-    # TO DO : Exporter in PDF
-    #
+    Exporter(logs, config["Output"], config["Keywords"])
 
     print("END !")
