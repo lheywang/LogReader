@@ -18,29 +18,35 @@ def Exporter(SortedLogs, Levels: dict, Keywords: list):
     LogCount = LevelCounter(SortedLogs)
     now = datetime.now()
 
+    # Force the file creation
+    with open("report.md", "w+") as f:
+        f.close()
+
     # Creating the "file" ==> The lib create it at the end
     mdfile = mdutils.MdUtils(
-        file_name="Report-%0s-%0s-%0s.md" % (now.year, now.month, now.day),
-        title="Report on %0s %0s %0s" % (now.year, now.month, now.day),
+        file_name="report.md",
+        title="",
     )
 
+    mdfile.write("# Report on %04d/%02d/%02d\n" % (now.year, now.month, now.day))
+
     # Disclaimers
-    mdfile.new_header(level=1, title="Disclaimers")
+    # mdfile.new_header(level=2, title="Disclaimers", style="setext")
     mdfile.write(
         "This report was generated automatically to recap the logs.\n"
-        "Please leave in mind that\n"
+        "Please leave in mind that\n\n"
         "- They depend on YOUR configuration (keywords.toml)\n"
         "- Thus, this report may not include every log that you want / you need to see.\n"
-        "- The script ELIMINATE logs that are older than 50 days.\n"
+        "- The script ELIMINATE logs that are older than 50 days.\n\n"
     )
 
     # Logs statistics
-    mdfile.new_header(level=1, title="Logs Statistics")
+    mdfile.write("## Logs\n")
 
     # Log Count Tab
-    mdfile.new_header(level=2, title="Logs Counts")
-    mdfile.new_paragraph(
-        "You will find here a tab that recap the number of logs that occured within the last 50 days, counted by category"
+    mdfile.write("### Logs Counts\n")
+    mdfile.write(
+        "You will find here a tab that recap the number of logs that occured within the last 50 days, counted by category\n"
     )
     TabText = ["Category :", "Level :", "Number of logs :"]
     for x in range(len(LogCount)):
@@ -57,13 +63,17 @@ def Exporter(SortedLogs, Levels: dict, Keywords: list):
         Level = "Level " + str(x)
         Count = str(LogCount[x])
         TabText.extend([category, Level, Count])
-    mdfile.new_table(columns=3, rows=11, text=TabText, text_align="center")
+    mdfile.new_table(
+        columns=3,
+        rows=11,
+        text=TabText,
+    )
 
     # Log settings useds
-    mdfile.new_header(level=2, title="Output parameters")
-    mdfile.new_paragraph(
-        "Here are listed the parameters used when creating this report. Check if everything is correct."
-        "Otherwise, your report may be incomplete"
+    mdfile.write("### Output parameters\n")
+    mdfile.write(
+        "Here are listed the parameters used when creating this report. Check if everything is correct.\n"
+        "Otherwise, your report may be incomplete\n"
     )
 
     # Keywords that were used to class the logs :
@@ -76,10 +86,14 @@ def Exporter(SortedLogs, Levels: dict, Keywords: list):
             else:
                 t_values += " | " + value
         TabText.extend([keys, t_values])
-    mdfile.new_table(columns=2, rows=11, text=TabText, text_align="center")
+    mdfile.new_table(
+        columns=2,
+        rows=11,
+        text=TabText,
+    )
 
     # Keywords that were used to generate log in the script :
-    mdfile.new_header(level=2, title="Keywords that were seeked")
+    mdfile.write("### Keywords that were seeked\n")
     col = 8
     TabText = ["Keywords :"]
 
@@ -99,10 +113,9 @@ def Exporter(SortedLogs, Levels: dict, Keywords: list):
         columns=col,
         rows=row + 1,
         text=TabText,
-        text_align="center",
     )
 
-    mdfile.new_header(level=1, title="Logs messages")
+    mdfile.write("## Logs messages\n")
 
     LogsPerLevel = []
     for _ in range(10):
@@ -114,57 +127,106 @@ def Exporter(SortedLogs, Levels: dict, Keywords: list):
             LogsPerLevel[index].extend(level)
             index += 1
 
-    mdfile.new_header(level=2, title="Level 0")
+    mdfile.write("\n### Level 0")
     for log in LogsPerLevel[0]:
         TabText = ["Date :", "Source :", "Message : "]
         TabText.extend([log.date, log.src, log.msg])
-        mdfile.new_table(columns=3, rows=2, text=TabText, text_align="center")
-    mdfile.new_header(level=2, title="Level 1")
+        mdfile.new_table(
+            columns=3,
+            rows=2,
+            text=TabText,
+        )
+
+    mdfile.write("\n### Level 1")
     for log in LogsPerLevel[1]:
         TabText = ["Date :", "Source :", "Message : "]
         TabText.extend([log.date, log.src, log.msg])
-        mdfile.new_table(columns=3, rows=2, text=TabText, text_align="center")
-    mdfile.new_header(level=2, title="Level 2")
+        mdfile.new_table(
+            columns=3,
+            rows=2,
+            text=TabText,
+        )
+
+    mdfile.write("\n### Level 2")
     for log in LogsPerLevel[2]:
         TabText = ["Date :", "Source :", "Message : "]
         TabText.extend([log.date, log.src, log.msg])
-        mdfile.new_table(columns=3, rows=2, text=TabText, text_align="center")
-    mdfile.new_header(level=2, title="Level 3")
+        mdfile.new_table(
+            columns=3,
+            rows=2,
+            text=TabText,
+        )
+
+    mdfile.write("\n### Level 3")
     for log in LogsPerLevel[3]:
         TabText = ["Date :", "Source :", "Message : "]
         TabText.extend([log.date, log.src, log.msg])
-        mdfile.new_table(columns=3, rows=2, text=TabText, text_align="center")
-    mdfile.new_header(level=2, title="Level 4")
+        mdfile.new_table(
+            columns=3,
+            rows=2,
+            text=TabText,
+        )
+
+    mdfile.write("\n### Level 4")
     for log in LogsPerLevel[4]:
         TabText = ["Date :", "Source :", "Message : "]
         TabText.extend([log.date, log.src, log.msg])
-        mdfile.new_table(columns=3, rows=2, text=TabText, text_align="center")
-    mdfile.new_header(level=2, title="Level 5")
+        mdfile.new_table(
+            columns=3,
+            rows=2,
+            text=TabText,
+        )
+
+    mdfile.write("\n### Level 5")
     for log in LogsPerLevel[5]:
         TabText = ["Date :", "Source :", "Message : "]
         TabText.extend([log.date, log.src, log.msg])
-        mdfile.new_table(columns=3, rows=2, text=TabText, text_align="center")
-    mdfile.new_header(level=2, title="Level 6")
+        mdfile.new_table(
+            columns=3,
+            rows=2,
+            text=TabText,
+        )
+
+    mdfile.write("\n### Level 6")
     for log in LogsPerLevel[6]:
         TabText = ["Date :", "Source :", "Message : "]
         TabText.extend([log.date, log.src, log.msg])
-        mdfile.new_table(columns=3, rows=2, text=TabText, text_align="center")
-    mdfile.new_header(level=2, title="Level 7")
+        mdfile.new_table(
+            columns=3,
+            rows=2,
+            text=TabText,
+        )
+
+    mdfile.write("\n### Level 7")
     for log in LogsPerLevel[7]:
         TabText = ["Date :", "Source :", "Message : "]
         TabText.extend([log.date, log.src, log.msg])
-        mdfile.new_table(columns=3, rows=2, text=TabText, text_align="center")
-    mdfile.new_header(level=2, title="Level 8")
+        mdfile.new_table(
+            columns=3,
+            rows=2,
+            text=TabText,
+        )
+
+    mdfile.write("\n### Level 8")
     for log in LogsPerLevel[8]:
         TabText = ["Date :", "Source :", "Message : "]
         TabText.extend([log.date, log.src, log.msg])
-        mdfile.new_table(columns=3, rows=2, text=TabText, text_align="center")
-    mdfile.new_header(level=2, title="Level 9")
+        mdfile.new_table(
+            columns=3,
+            rows=2,
+            text=TabText,
+        )
+
+    mdfile.write("\n### Level 9")
     for log in LogsPerLevel[9]:
         TabText = ["Date :", "Source :", "Message : "]
         TabText.extend([log.date, log.src, log.msg])
-        mdfile.new_table(columns=3, rows=2, text=TabText, text_align="center")
+        mdfile.new_table(
+            columns=3,
+            rows=2,
+            text=TabText,
+        )
 
-    mdfile.new_paragraph("End of the logs report. ")
+    mdfile.write("\nEnd of the logs report.\n")
     mdfile.create_md_file()
     return 0
