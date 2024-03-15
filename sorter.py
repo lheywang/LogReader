@@ -65,6 +65,7 @@ def DateFormatter(Log: LogEntry):
 
 
 def IsLogOld(Log: LogEntry, threshold: int):
+    print("Start sorting logs...")
     try:
         now = datetime.now()
         LogDate = datetime.strptime(Log.date, "%b %d %H:%M:%S")
@@ -85,6 +86,7 @@ def sorter(logs: list, Levels: dict):
     for Level in Levels.keys():
         LevelsID.append(int(Level[5:]))
     LevelNumber = max(LevelsID)
+
     LogLevel = []
     for index in range(LevelNumber + 1):
         LogLevel.append([])
@@ -92,8 +94,10 @@ def sorter(logs: list, Levels: dict):
     for log in logs:
         # Remove usuless data (Non ascii characters from the string)
         log = ClearLogEntry(log)
+
         # Format the date
         log = DateFormatter(log)
+
         # If the log is older than 50 days, just forget it and remove it
         if IsLogOld(log, 31):
             continue
@@ -102,10 +106,5 @@ def sorter(logs: list, Levels: dict):
             result = SeekOnList(log.msg, WordList)
             if result == True:
                 LogLevel[int(Level[5:])].append(log)
+    print("\tEnded sorting a log entry")
     return LogLevel
-
-
-"""
-SYSLOG_TIMESTAMP=Feb  2 15:49:35
-Feb 25 14:17:31
-"""
