@@ -11,12 +11,13 @@ if __name__ == "__main__":
     # Copying and extracting files
     start = time()
     print("Start Copying and Extracting files")
-    FilesCopy("full_logs", "Work")
-    FilesExtraction("C:\\Dev\\logs\\reader\\LogReader\\Wrok")
 
     # Openning the TOML File and parsing it
     with open("keywords.toml", "rb") as t:
         config = tomllib.load(t)
+
+    FilesCopy(config["source"], config["workzone"])
+    FilesExtraction(config["workzone"])
 
     # Creating a pool on all cores available
     pool = Pool()
@@ -24,7 +25,7 @@ if __name__ == "__main__":
     # Creating an args tab to be passed to te pool. Each worker will seek one (or multiples) word(s)
     args = []
     for keywords in config["Keywords"]:
-        args.append(("C:\\Dev\\logs\\reader\\LogReader\\Work", keywords))
+        args.append((config["workzone"], keywords))
 
     # Launching the reading process on all cores, with for each one a specific argument set
     results = pool.starmap(reader, args)
@@ -38,7 +39,7 @@ if __name__ == "__main__":
     logs = pool.starmap(sorter, args)
 
     print("Starting Final Export of logs")
-    Exporter(logs, config["Output"], config["Keywords"])
+    Exporter(logs, config["Output"], config["Keywords"], config["export"])
 
     end = time()
     print("END !")

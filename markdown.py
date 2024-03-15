@@ -14,17 +14,17 @@ def LevelCounter(Logs):
     return LogLevelCounter
 
 
-def Exporter(SortedLogs, Levels: dict, Keywords: list):
+def Exporter(SortedLogs, Levels: dict, Keywords: list, outputpath):
     LogCount = LevelCounter(SortedLogs)
     now = datetime.now()
 
     # Force the file creation
-    with open("report.md", "w+") as f:
+    with open(outputpath + "/report.md", "w+") as f:
         f.close()
 
     # Creating the "file" ==> The lib create it at the end
     mdfile = mdutils.MdUtils(
-        file_name="report.md",
+        file_name=outputpath + "/report.md",
         title="",
     )
 

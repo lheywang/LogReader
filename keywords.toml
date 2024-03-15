@@ -1,5 +1,14 @@
 # This file configure the auto sorter of logs
 
+# You can configure here the path that are used for the sorting of logs.
+# Source shall point to /var/log or something similar
+# workzone shall point on any directory. Using something on /home seem to be the best option.
+# export shall point to any directory. The reader will export it's files on this folder. It can be shared to be accessed by the admin.
+source = "full_logs"
+workzone = "C:\\Dev\\logs\\reader\\LogReader\\Work"
+export = "C:\\Dev\\logs\\reader"
+
+
 # Define in the following list the process keywords which you want to be exposed.
 # Anu word here will be seek trough EVERY file on a multiprocessing pool, thus all cores of the CPU will be used (and probably multiples words per core...)
 Keywords = ["systemmd", 

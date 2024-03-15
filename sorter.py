@@ -65,6 +65,7 @@ def DateFormatter(Log: LogEntry):
 
 
 def IsLogOld(Log: LogEntry, threshold: int):
+    print("Start sorting logs...")
     try:
         now = datetime.now()
         LogDate = datetime.strptime(Log.date, "%b %d %H:%M:%S")
@@ -105,4 +106,5 @@ def sorter(logs: list, Levels: dict):
             result = SeekOnList(log.msg, WordList)
             if result == True:
                 LogLevel[int(Level[5:])].append(log)
+    print("\tEnded sorting a log entry")
     return LogLevel
