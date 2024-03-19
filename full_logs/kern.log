@@ -1,6 +1,0 @@
-Feb 25 04:00:07 dionysos kernel: [647473.134474] vethf5fd4e2: renamed from eth0
-Feb 25 04:00:07 dionysos kernel: [647473.166912] docker0: port 2(vetha67d4ef) entered disabled state
-Feb 25 04:00:08 dionysos kernel: [647473.341022] docker0: port 2(vetha67d4ef) entered disabled state
-Feb 25 04:00:08 dionysos kernel: [647473.341423] device vetha67d4ef left promiscuous mode
-Feb 25 04:00:08 dionysos kernel: [647473.341427] docker0: port 2(vetha67d4ef) entered disabled state
-Feb 25 04:36:56 dionysos kernel: [649681.770244] perf: interrupt took too long (2511 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
